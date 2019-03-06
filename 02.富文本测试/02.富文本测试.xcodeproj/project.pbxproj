@@ -34,7 +34,6 @@
 		6696F5BB222F9B3C003F043F /* SWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696F5B9222F9B3C003F043F /* SWWebViewController.m */; };
 		6696F5C2222FA0D6003F043F /* SWRule.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C1222FA0D6003F043F /* SWRule.html */; };
 		6696F5C6222FA146003F043F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
-		6696F5C8222FA290003F043F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C7222FA290003F043F /* Podfile */; };
 		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -88,7 +87,7 @@
 		6696F5BC222F9B4A003F043F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6696F5C1222FA0D6003F043F /* SWRule.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SWRule.html; sourceTree = "<group>"; };
 		6696F5C5222FA146003F043F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		6696F5C7222FA290003F043F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		6696F5C9222FA8C3003F043F /* SWAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAdapter.h; sourceTree = "<group>"; };
 		66A804322227919400925566 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
 		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-02.富文本测试.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-02.富文本测试.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,8 +231,8 @@
 		6696F5BD222F9B75003F043F /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				6696F5C7222FA290003F043F /* Podfile */,
 				6696F5BC222F9B4A003F043F /* PrefixHeader.pch */,
+				6696F5C9222FA8C3003F043F /* SWAdapter.h */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -319,7 +318,6 @@
 				663D49F1221FCCF7006175D3 /* LaunchScreen.storyboard in Resources */,
 				663D49EE221FCCF7006175D3 /* Assets.xcassets in Resources */,
 				663D49FE221FDE89006175D3 /* SWCollectionVIewCell.xib in Resources */,
-				6696F5C8222FA290003F043F /* Podfile in Resources */,
 				663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

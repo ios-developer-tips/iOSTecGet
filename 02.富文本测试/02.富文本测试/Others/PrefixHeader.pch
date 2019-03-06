@@ -10,6 +10,6 @@
 #define PrefixHeader_pch
 
 // frame配置文件
-
+#import "SWAdapter.h"
 
 #endif /* PrefixHeader_pch */

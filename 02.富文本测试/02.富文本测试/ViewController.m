@@ -11,6 +11,16 @@
 #import "RichTextViewController.h"
 #import "SWTimeViewController.h"
 #import "NullSafeViewController.h"
+#import "AppDelegate.h"
+
+#define getSum(a,b)\
+^(){\
+return a+b;\
+}()
+//#define swAppDelegate  - (AppDelegate *)getAppDelegate { \
+//AppDelegate *tempAppDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate; \
+//return tempAppDelegate; \
+//}
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic,strong)UICollectionView *collectionView;
@@ -54,6 +64,11 @@ static CGFloat kMagin = 10.f;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    AppDelegate *application = kAppDelegate;
+//    NSLog(@"------当前屏幕size%d",swAppDelegate);
+    
+    double sum = getSum(M_PI,M_E);
     
     [self.view addSubview:self.collectionView];
 }
