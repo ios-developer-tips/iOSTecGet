@@ -7,7 +7,7 @@
 //
 #ifndef SWAdapter_h
 #define SWAdapter_h
-//#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 
 //#pragma 屏幕尺寸
 //#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
@@ -21,6 +21,7 @@
 //#define Inline static inline
 #pragma mark --设置比例
 // 实际屏幕宽度和设计图宽度的比例
+
 
 
 //#define kAdaptionWidth \

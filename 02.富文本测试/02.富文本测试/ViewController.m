@@ -11,12 +11,23 @@
 #import "RichTextViewController.h"
 #import "SWTimeViewController.h"
 #import "NullSafeViewController.h"
-#import "AppDelegate.h"
+
+#define APIURL  (getUrl())
+CG_INLINE NSString* getUrl(){
+    
+    return @"hahha";
+}
 
 #define getSum(a,b)\
 ^(){\
 return a+b;\
 }()
+
+inline CGFloat AAdaptionWidth() {
+    return 1.0;
+}
+
+
 //#define swAppDelegate  - (AppDelegate *)getAppDelegate { \
 //AppDelegate *tempAppDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate; \
 //return tempAppDelegate; \
@@ -66,7 +77,7 @@ static CGFloat kMagin = 10.f;
     [super viewDidLoad];
     
 //    AppDelegate *application = kAppDelegate;
-//    NSLog(@"------当前屏幕size%d",swAppDelegate);
+    NSLog(@"------当前屏幕size%@",APIURL);
     
     double sum = getSum(M_PI,M_E);
     
