@@ -35,6 +35,7 @@
 		6696F5C2222FA0D6003F043F /* SWRule.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C1222FA0D6003F043F /* SWRule.html */; };
 		6696F5C6222FA146003F043F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
 		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
+		66DC5B95223A090600C4697A /* SWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC5B94223A090600C4697A /* SWTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,8 @@
 		6696F5C9222FA8C3003F043F /* SWAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAdapter.h; sourceTree = "<group>"; };
 		66A804322227919400925566 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
 		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
+		66DC5B93223A090600C4697A /* SWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTimerViewController.h; sourceTree = "<group>"; };
+		66DC5B94223A090600C4697A /* SWTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTimerViewController.m; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,6 +201,8 @@
 			children = (
 				663D4A0A22237E64006175D3 /* SWTimeViewController.h */,
 				663D4A0B22237E64006175D3 /* SWTimeViewController.m */,
+				66DC5B93223A090600C4697A /* SWTimerViewController.h */,
+				66DC5B94223A090600C4697A /* SWTimerViewController.m */,
 			);
 			path = "时间";
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
 				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
+				66DC5B95223A090600C4697A /* SWTimerViewController.m in Sources */,
 				663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */,
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
 				66788F0422261CAA00747432 /* SWCompileTest.c in Sources */,
@@ -547,6 +553,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSTecGet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,6 +575,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSTecGet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
