@@ -11,6 +11,8 @@
 #import "RichTextViewController.h"
 #import "SWTimeViewController.h"
 #import "NullSafeViewController.h"
+#import "SWAlgorithmViewController.h"
+#import "SWWebViewController.h"
 
 #define APIURL  (getUrl())
 CG_INLINE NSString* getUrl(){
@@ -114,6 +116,12 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 2){
         
         cell.titleNameLb.text = @"底层原理测试";
+    }else if(indexPath.row == 3){
+        
+        cell.titleNameLb.text = @"算法";
+    }else if(indexPath.row == 4){
+        
+        cell.titleNameLb.text = @"H5相关知识";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -136,18 +144,26 @@ static CGFloat kMagin = 10.f;
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath.row == 0) {
+    if (indexPath.row == 0) { // 富文本测试
         
         RichTextViewController *richTextVc = [[RichTextViewController alloc]init];
         [self.navigationController pushViewController:richTextVc animated:YES];
-    }else if(indexPath.row == 1){
+    }else if(indexPath.row == 1){ // 时间测试
         
         SWTimeViewController *timeVc = [[SWTimeViewController alloc]init];
         [self.navigationController pushViewController:timeVc animated:YES];
-    }else if(indexPath.row == 2){
+    }else if(indexPath.row == 2){ // 安全崩溃测试
         
         NullSafeViewController *nullSafeVc = [[NullSafeViewController alloc]init];
         [self.navigationController pushViewController:nullSafeVc animated:YES];
+    }else if(indexPath.row == 3){ // 算法练习
+        
+        SWAlgorithmViewController *algorithmVc = [[SWAlgorithmViewController alloc]init];
+        [self.navigationController pushViewController:algorithmVc animated:YES];
+    }else if(indexPath.row == 4){ // webView学习
+        
+        SWWebViewController *webViewVc = [[SWWebViewController alloc]init];
+        [self.navigationController pushViewController:webViewVc animated:YES];
     }else{
         
        
