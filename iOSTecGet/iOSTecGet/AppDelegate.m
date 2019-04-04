@@ -7,7 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#if APPTYPE == 0
 
+const NSString *versinName = @"正式版本";
+#elif APPTYPE == 1
+const NSString *versinName = @"测试版本";
+#else
+#endif
 @interface AppDelegate ()
 
 @end
@@ -17,6 +23,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"%@",versinName);
     return YES;
 }
 
