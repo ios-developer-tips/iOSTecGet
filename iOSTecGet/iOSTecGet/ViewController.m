@@ -13,6 +13,8 @@
 #import "NullSafeViewController.h"
 #import "SWAlgorithmViewController.h"
 #import "SWWebViewController.h"
+#import "SWEncryptAndDecryptViewController.h"
+#import "SWMJViewController.h"
 
 #define APIURL  (getUrl())
 CG_INLINE NSString* getUrl(){
@@ -122,6 +124,9 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 4){
         
         cell.titleNameLb.text = @"H5相关知识";
+    }else if(indexPath.row == 5){
+        
+        cell.titleNameLb.text = @"加密学习";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -154,8 +159,10 @@ static CGFloat kMagin = 10.f;
         [self.navigationController pushViewController:timeVc animated:YES];
     }else if(indexPath.row == 2){ // 安全崩溃测试
         
-        NullSafeViewController *nullSafeVc = [[NullSafeViewController alloc]init];
-        [self.navigationController pushViewController:nullSafeVc animated:YES];
+        SWMJViewController *mjVc = [[SWMJViewController alloc]init];
+        [self.navigationController pushViewController:mjVc animated:YES];
+//        NullSafeViewController *nullSafeVc = [[NullSafeViewController alloc]init];
+//        [self.navigationController pushViewController:nullSafeVc animated:YES];
     }else if(indexPath.row == 3){ // 算法练习
         
         SWAlgorithmViewController *algorithmVc = [[SWAlgorithmViewController alloc]init];
@@ -164,6 +171,10 @@ static CGFloat kMagin = 10.f;
         
         SWWebViewController *webViewVc = [[SWWebViewController alloc]init];
         [self.navigationController pushViewController:webViewVc animated:YES];
+    }else if(indexPath.row == 5){ // 加密学习
+        
+        SWEncryptAndDecryptViewController *encryptVc = [[SWEncryptAndDecryptViewController alloc]init];
+        [self.navigationController pushViewController:encryptVc animated:YES];
     }else{
         
        
