@@ -63,11 +63,14 @@
 		663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0F2224D99F006175D3 /* NullSafeViewController.m */; };
 		663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A122224DEF2006175D3 /* SWDealTool.m */; };
 		6660A583225AF9050051F54E /* SWEncryptAndDecryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */; };
-		6660A586225B2AE70051F54E /* SWMJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A585225B2AE70051F54E /* SWMJViewController.m */; };
 		6660A589225B302C0051F54E /* SWAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A588225B302C0051F54E /* SWAnimal.m */; };
 		6660A58C225B303B0051F54E /* SWDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A58B225B303B0051F54E /* SWDog.m */; };
 		6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A58E225B365E0051F54E /* UIImage+SWImage.m */; };
 		6660A595225B4AA00051F54E /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A594225B4AA00051F54E /* NSObject+Property.m */; };
+		6660A5A8225C44E10051F54E /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A5A4225C44E10051F54E /* NSObject+Model.m */; };
+		6660A5A9225C44E10051F54E /* SWMJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A5A5225C44E10051F54E /* SWMJViewController.m */; };
+		6660A5AA225C44E10051F54E /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A5A6225C44E10051F54E /* Status.m */; };
+		6660A5AB225C44E10051F54E /* SWUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A5A7225C44E10051F54E /* SWUserModel.m */; };
 		66788F0422261CAA00747432 /* SWCompileTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 66788F0322261CAA00747432 /* SWCompileTest.c */; };
 		6696F5C6222FA146003F043F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
 		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
@@ -129,8 +132,6 @@
 		663D4A122224DEF2006175D3 /* SWDealTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDealTool.m; sourceTree = "<group>"; };
 		6660A581225AF9050051F54E /* SWEncryptAndDecryptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWEncryptAndDecryptViewController.h; sourceTree = "<group>"; };
 		6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWEncryptAndDecryptViewController.m; sourceTree = "<group>"; };
-		6660A584225B2AE70051F54E /* SWMJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMJViewController.h; sourceTree = "<group>"; };
-		6660A585225B2AE70051F54E /* SWMJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMJViewController.m; sourceTree = "<group>"; };
 		6660A587225B302C0051F54E /* SWAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAnimal.h; sourceTree = "<group>"; };
 		6660A588225B302C0051F54E /* SWAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAnimal.m; sourceTree = "<group>"; };
 		6660A58A225B303B0051F54E /* SWDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDog.h; sourceTree = "<group>"; };
@@ -139,6 +140,14 @@
 		6660A58E225B365E0051F54E /* UIImage+SWImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SWImage.m"; sourceTree = "<group>"; };
 		6660A593225B4AA00051F54E /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		6660A594225B4AA00051F54E /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		6660A5A0225C44E10051F54E /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		6660A5A1225C44E10051F54E /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		6660A5A2225C44E10051F54E /* SWMJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMJViewController.h; sourceTree = "<group>"; };
+		6660A5A3225C44E10051F54E /* SWUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUserModel.h; sourceTree = "<group>"; };
+		6660A5A4225C44E10051F54E /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		6660A5A5225C44E10051F54E /* SWMJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMJViewController.m; sourceTree = "<group>"; };
+		6660A5A6225C44E10051F54E /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		6660A5A7225C44E10051F54E /* SWUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUserModel.m; sourceTree = "<group>"; };
 		66788F0222261CAA00747432 /* SWCompileTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCompileTest.h; sourceTree = "<group>"; };
 		66788F0322261CAA00747432 /* SWCompileTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SWCompileTest.c; sourceTree = "<group>"; };
 		6696F5BC222F9B4A003F043F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -302,6 +311,7 @@
 		663D4A0D2224D972006175D3 /* 底层原理 */ = {
 			isa = PBXGroup;
 			children = (
+				6660A59F225C44E10051F54E /* MJExtension全家桶 */,
 				663D4A0E2224D99F006175D3 /* NullSafeViewController.h */,
 				663D4A0F2224D99F006175D3 /* NullSafeViewController.m */,
 				663D4A112224DEF2006175D3 /* SWDealTool.h */,
@@ -312,8 +322,6 @@
 				660CBE0B2228C868001E7980 /* TestViewController.m */,
 				660CBE0D2228CE5E001E7980 /* Person.h */,
 				660CBE0E2228CE5E001E7980 /* Person.m */,
-				6660A584225B2AE70051F54E /* SWMJViewController.h */,
-				6660A585225B2AE70051F54E /* SWMJViewController.m */,
 				6660A587225B302C0051F54E /* SWAnimal.h */,
 				6660A588225B302C0051F54E /* SWAnimal.m */,
 				6660A58A225B303B0051F54E /* SWDog.h */,
@@ -329,6 +337,21 @@
 				6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */,
 			);
 			path = "加密解密";
+			sourceTree = "<group>";
+		};
+		6660A59F225C44E10051F54E /* MJExtension全家桶 */ = {
+			isa = PBXGroup;
+			children = (
+				6660A5A2225C44E10051F54E /* SWMJViewController.h */,
+				6660A5A5225C44E10051F54E /* SWMJViewController.m */,
+				6660A5A0225C44E10051F54E /* NSObject+Model.h */,
+				6660A5A4225C44E10051F54E /* NSObject+Model.m */,
+				6660A5A1225C44E10051F54E /* Status.h */,
+				6660A5A6225C44E10051F54E /* Status.m */,
+				6660A5A3225C44E10051F54E /* SWUserModel.h */,
+				6660A5A7225C44E10051F54E /* SWUserModel.m */,
+			);
+			path = "MJExtension全家桶";
 			sourceTree = "<group>";
 		};
 		6696F5B8222F9B3C003F043F /* H5知识点 */ = {
@@ -608,20 +631,23 @@
 				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
 				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
+				6660A5AA225C44E10051F54E /* Status.m in Sources */,
 				6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
+				6660A5AB225C44E10051F54E /* SWUserModel.m in Sources */,
+				6660A5A9225C44E10051F54E /* SWMJViewController.m in Sources */,
 				660809762255FEFC00DE3D74 /* SWWebViewController.m in Sources */,
 				6660A595225B4AA00051F54E /* NSObject+Property.m in Sources */,
 				66DC5B95223A090600C4697A /* SWTimerViewController.m in Sources */,
 				663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */,
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
-				6660A586225B2AE70051F54E /* SWMJViewController.m in Sources */,
 				66788F0422261CAA00747432 /* SWCompileTest.c in Sources */,
 				663D49F4221FCCF8006175D3 /* main.m in Sources */,
 				660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
 				663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */,
 				6608096C2255E8B600DE3D74 /* SWQuickSort.cpp in Sources */,
+				6660A5A8225C44E10051F54E /* NSObject+Model.m in Sources */,
 				663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */,
 				663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */,
 				6608096F2255E9B000DE3D74 /* SWAlgorithmViewController.mm in Sources */,

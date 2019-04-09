@@ -12,6 +12,8 @@
 #import "SWAnimal.h"
 #import "UIImage+SWImage.h"
 #import "NSObject+Property.h"
+#import "NSObject+Model.h"
+#import "Status.h"
 // 一、runtime简介
 // Runtime简称运行时。OC就是运行时机制，是在运行时的一些特性，其中最重要的是消息机制
 // 对于c语言来讲，在编译阶段就决定调用哪个函数；对于OC来说，属于动态调用过程，在编译阶段并不能决定你调用哪个函数，我们可以在运行时动态的添加、修改函数调用
@@ -22,6 +24,7 @@
 //
 @interface SWMJViewController ()
 
+@property (nonatomic,copy)NSMutableArray *statusArray;
 @end
 
 @implementation SWMJViewController
@@ -50,35 +53,45 @@
     NSLog(@"对象的名字叫作:%@",objc.name);
     
     // 字典转模型
-//    NSDictionary *dict = @{
-//                           @"statuses" : @[
-//                                   @{
-//                                       @"text" : @"Nice weather!",
-//                                       @"user" : @{
-//                                               @"name" : @"Rose",
-//                                               @"icon" : @"nami.png"
-//                                               }
-//                                       },
-//                                   @{
-//                                       @"text" : @"Go camping tomorrow!",
-//                                       @"user" : @{
-//                                               @"name" : @"Jack",
-//                                               @"icon" : @"lufy.png"
-//                                               }
-//                                       }
-//                                   ],
-//                           @"ads" : @[
-//                                   @{
-//                                       @"image" : @"ad01.png",
-//                                       @"url" : @"http://www.ad01.com"
-//                                       },
-//                                   @{
-//                                       @"image" : @"ad02.png",
-//                                       @"url" : @"http://www.ad02.com"
-//                                       }
-//                                   ],
-//                           @"totalNumber" : @"2014"
-//                           };
+    NSDictionary *dict = @{
+                           @"statuses" : @[
+                                   @{
+                                       @"text" : @"Nice weather!",
+                                       @"user" : @{
+                                               @"name" : @"Rose",
+                                               @"icon" : @"nami.png"
+                                               }
+                                       },
+                                   @{
+                                       @"text" : @"Go camping tomorrow!",
+                                       @"user" : @{
+                                               @"name" : @"Jack",
+                                               @"icon" : @"lufy.png"
+                                               }
+                                       }
+                                   ],
+                           @"ads" : @[
+                                   @{
+                                       @"image" : @"ad01.png",
+                                       @"url" : @"http://www.ad01.com"
+                                       },
+                                   @{
+                                       @"image" : @"ad02.png",
+                                       @"url" : @"http://www.ad02.com"
+                                       }
+                                   ],
+                           @"totalNumber" : @"2014"
+                           };
+    // 获取字典数组
+    NSArray *dictArr = dict[@"statuses"];
+    _statusArray = [NSMutableArray array];
+    
+    // 遍历数组
+    for (NSDictionary *dict in dictArr) {
+        
+        Status *status = [Status modelWithDict:dict];
+        [_statusArray addObject:status];
+    }
 }
 /*
 #pragma mark - Navigation

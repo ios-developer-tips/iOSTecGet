@@ -65,9 +65,9 @@ static CGFloat kMagin = 10.f;
         //设置单元格大小
         flowLayout.itemSize = CGSizeMake(itemWidth, itemWidth*0.5);
         //最小行间距(默认为10)
-        flowLayout.minimumLineSpacing = 10;
+        flowLayout.minimumLineSpacing = 5;
         //最小item间距（默认为10）
-        flowLayout.minimumInteritemSpacing = 10;
+        flowLayout.minimumInteritemSpacing = 5;
         //设置senction的内边距
         flowLayout.sectionInset = UIEdgeInsetsMake(kMagin, kMagin, kMagin, kMagin);
         //设置UICollectionView的滑动方向
