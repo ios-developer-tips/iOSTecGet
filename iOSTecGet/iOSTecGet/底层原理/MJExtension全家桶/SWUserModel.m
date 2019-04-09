@@ -7,7 +7,8 @@
 //
 
 #import "SWUserModel.h"
-
+@interface SWUserModel()<NSCopying,NSMutableCopying>
+@end
 @implementation SWUserModel
 
 @end

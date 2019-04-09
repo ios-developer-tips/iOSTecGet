@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class SWUserModel;
 //NSDictionary *dict = @{
 //                       @"Status" : @[
 //                               @{
@@ -41,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Status : NSObject
 
 @property (nonatomic, copy)NSString *text;
-@property (nonatomic, copy)NSDictionary *user;
+@property (nonatomic, strong)SWUserModel *user;
 
 + (NSDictionary *)arrayContainModelClass;
 @end

@@ -7,11 +7,15 @@
 //
 
 #import "Status.h"
+@interface Status()
 
+@end
 @implementation Status
 
 + (NSDictionary *)arrayContainModelClass{
     
     return @{@"arrayContainModelClass":@"SWUserModel"};
 }
+
+
 @end

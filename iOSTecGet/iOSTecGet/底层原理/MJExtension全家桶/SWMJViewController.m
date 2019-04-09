@@ -14,6 +14,7 @@
 #import "NSObject+Property.h"
 #import "NSObject+Model.h"
 #import "Status.h"
+#import "SWUserModel.h"
 // 一、runtime简介
 // Runtime简称运行时。OC就是运行时机制，是在运行时的一些特性，其中最重要的是消息机制
 // 对于c语言来讲，在编译阶段就决定调用哪个函数；对于OC来说，属于动态调用过程，在编译阶段并不能决定你调用哪个函数，我们可以在运行时动态的添加、修改函数调用
@@ -91,6 +92,11 @@
         
         Status *status = [Status modelWithDict:dict];
         [_statusArray addObject:status];
+        
+        if (status != nil) {
+            
+            NSLog(@"名字是:%@",status.user.name);
+        }
     }
 }
 /*
