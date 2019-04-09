@@ -11,6 +11,10 @@
 #import "RichTextViewController.h"
 #import "SWTimeViewController.h"
 #import "NullSafeViewController.h"
+#import "SWAlgorithmViewController.h"
+#import "SWWebViewController.h"
+#import "SWEncryptAndDecryptViewController.h"
+#import "SWMJViewController.h"
 
 #define APIURL  (getUrl())
 CG_INLINE NSString* getUrl(){
@@ -61,9 +65,9 @@ static CGFloat kMagin = 10.f;
         //设置单元格大小
         flowLayout.itemSize = CGSizeMake(itemWidth, itemWidth*0.5);
         //最小行间距(默认为10)
-        flowLayout.minimumLineSpacing = 10;
+        flowLayout.minimumLineSpacing = 5;
         //最小item间距（默认为10）
-        flowLayout.minimumInteritemSpacing = 10;
+        flowLayout.minimumInteritemSpacing = 5;
         //设置senction的内边距
         flowLayout.sectionInset = UIEdgeInsetsMake(kMagin, kMagin, kMagin, kMagin);
         //设置UICollectionView的滑动方向
@@ -114,6 +118,15 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 2){
         
         cell.titleNameLb.text = @"底层原理测试";
+    }else if(indexPath.row == 3){
+        
+        cell.titleNameLb.text = @"算法";
+    }else if(indexPath.row == 4){
+        
+        cell.titleNameLb.text = @"H5相关知识";
+    }else if(indexPath.row == 5){
+        
+        cell.titleNameLb.text = @"加密学习";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -136,18 +149,32 @@ static CGFloat kMagin = 10.f;
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath.row == 0) {
+    if (indexPath.row == 0) { // 富文本测试
         
         RichTextViewController *richTextVc = [[RichTextViewController alloc]init];
         [self.navigationController pushViewController:richTextVc animated:YES];
-    }else if(indexPath.row == 1){
+    }else if(indexPath.row == 1){ // 时间测试
         
         SWTimeViewController *timeVc = [[SWTimeViewController alloc]init];
         [self.navigationController pushViewController:timeVc animated:YES];
-    }else if(indexPath.row == 2){
+    }else if(indexPath.row == 2){ // 安全崩溃测试
         
-        NullSafeViewController *nullSafeVc = [[NullSafeViewController alloc]init];
-        [self.navigationController pushViewController:nullSafeVc animated:YES];
+        SWMJViewController *mjVc = [[SWMJViewController alloc]init];
+        [self.navigationController pushViewController:mjVc animated:YES];
+//        NullSafeViewController *nullSafeVc = [[NullSafeViewController alloc]init];
+//        [self.navigationController pushViewController:nullSafeVc animated:YES];
+    }else if(indexPath.row == 3){ // 算法练习
+        
+        SWAlgorithmViewController *algorithmVc = [[SWAlgorithmViewController alloc]init];
+        [self.navigationController pushViewController:algorithmVc animated:YES];
+    }else if(indexPath.row == 4){ // webView学习
+        
+        SWWebViewController *webViewVc = [[SWWebViewController alloc]init];
+        [self.navigationController pushViewController:webViewVc animated:YES];
+    }else if(indexPath.row == 5){ // 加密学习
+        
+        SWEncryptAndDecryptViewController *encryptVc = [[SWEncryptAndDecryptViewController alloc]init];
+        [self.navigationController pushViewController:encryptVc animated:YES];
     }else{
         
        

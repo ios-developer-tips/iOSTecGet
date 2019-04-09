@@ -16,6 +16,9 @@
 #define kScreenWidth  [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
+#define kRateRatioX [[UIScreen mainScreen]bounds].size.width/375.0
+#define kRateRatioY [[UIScreen mainScreen]bounds].size.height/667.0
+
 #pragma UI设计图尺寸
 #define kBaseWidth   375
 #define kBaseHeight  1334

@@ -1,5 +1,5 @@
 //
-//  SWWebViewController.h
+//  SWAlgorithmViewController.h
 //  iOSTecGet
 //
 //  Created by 信息科技部 on 2019/4/4.
@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <WebKit/WebKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SWWebViewController : UIViewController
+@interface SWAlgorithmViewController : UIViewController
 
-@property (nonatomic, strong) WKWebView *webView;
 @end
 
 NS_ASSUME_NONNULL_END
