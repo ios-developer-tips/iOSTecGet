@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "ViewController1.h"
+#import "ViewController2.h"
+#import "ViewController3.h"
+#import "LSWTabBarController.h"
 #if APPTYPE == 0
 
 const NSString *versinName = @"正式版本";
@@ -25,6 +30,13 @@ const NSString *versinName = @"测试版本";
     // Override point for customization after application launch.
     
     NSLog(@"%@",versinName);
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    LSWTabBarController *tabBarVc = [[LSWTabBarController alloc]init];
+    
+    self.window.rootViewController = tabBarVc;
     return YES;
 }
 

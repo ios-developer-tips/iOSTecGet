@@ -16,6 +16,8 @@
 #import "SWEncryptAndDecryptViewController.h"
 #import "SWMJViewController.h"
 
+
+
 #define APIURL  (getUrl())
 CG_INLINE NSString* getUrl(){
     
@@ -77,8 +79,23 @@ static CGFloat kMagin = 10.f;
     }
     return _collectionView;
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    [self setupItems];
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    
+    [super viewDidAppear:animated];
+    [self setupItems];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setupItems];
     
 //    AppDelegate *application = kAppDelegate;
     NSLog(@"------当前屏幕size%@",APIURL);
@@ -86,6 +103,17 @@ static CGFloat kMagin = 10.f;
     double sum = getSum(M_PI,M_E);
     
     [self.view addSubview:self.collectionView];
+}
+
+- (void)setupItems{
+    
+    UIImageView *icon = [[UIImageView alloc]init];
+//    icon.backgroundColor = [UIColor redColor];
+    icon.frame = CGRectMake(128.5, 8, 118, 28);
+    icon.image = [UIImage imageNamed:@"logo-black"];
+//    icon.centerX = self.navigationController.navigationBar.centerX;
+    self.navigationItem.titleView = icon;
+//    self.navigationItem.titleView.backgroundColor = [UIColor greenColor];
 }
 
 - (void)loadCollectionView{

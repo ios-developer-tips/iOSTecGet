@@ -12,4 +12,9 @@
 // frame配置文件
 #import "SWAdapter.h"
 
+// 区分c和oc
+#ifdef __OBJC__
+// 分类
+#import "UIView+Frame.h"
+#endif
 #endif /* PrefixHeader_pch */

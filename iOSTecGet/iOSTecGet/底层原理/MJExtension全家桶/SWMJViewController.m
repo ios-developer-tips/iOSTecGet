@@ -33,8 +33,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setupItems];
     
     self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)setupItems{
+    
+    UIImageView *icon = [[UIImageView alloc]init];
+    //    icon.backgroundColor = [UIColor redColor];
+    icon.frame = CGRectMake(128.5, 8, 118, 28);
+    icon.image = [UIImage imageNamed:@"logo-black"];
+    //    icon.centerX = self.navigationController.navigationBar.centerX;
+    self.navigationItem.titleView = icon;
+    //    self.navigationItem.titleView.backgroundColor = [UIColor greenColor];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

@@ -75,6 +75,12 @@
 		6696F5C6222FA146003F043F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
 		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
 		66DC5B95223A090600C4697A /* SWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC5B94223A090600C4697A /* SWTimerViewController.m */; };
+		66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072D8225D9A2400FA6A77 /* ViewController1.m */; };
+		66E072DC225D9A3200FA6A77 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072DB225D9A3200FA6A77 /* ViewController2.m */; };
+		66E072DF225D9A4100FA6A77 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072DE225D9A4100FA6A77 /* ViewController3.m */; };
+		66E072E2225DC03C00FA6A77 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E1225DC03C00FA6A77 /* UIView+Frame.m */; };
+		66E072E5225DDE8300FA6A77 /* LSWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */; };
+		66E072E8225DDF5400FA6A77 /* LSWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +163,18 @@
 		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 		66DC5B93223A090600C4697A /* SWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTimerViewController.h; sourceTree = "<group>"; };
 		66DC5B94223A090600C4697A /* SWTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTimerViewController.m; sourceTree = "<group>"; };
+		66E072D7225D9A2400FA6A77 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		66E072D8225D9A2400FA6A77 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		66E072DA225D9A3200FA6A77 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		66E072DB225D9A3200FA6A77 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		66E072DD225D9A4100FA6A77 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		66E072DE225D9A4100FA6A77 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		66E072E0225DC03C00FA6A77 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "iOSTecGet/UIView+Frame.h"; sourceTree = SOURCE_ROOT; };
+		66E072E1225DC03C00FA6A77 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "iOSTecGet/UIView+Frame.m"; sourceTree = SOURCE_ROOT; };
+		66E072E3225DDE8300FA6A77 /* LSWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWTabBarController.h; sourceTree = "<group>"; };
+		66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTabBarController.m; sourceTree = "<group>"; };
+		66E072E6225DDF5400FA6A77 /* LSWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWNavigationController.h; sourceTree = "<group>"; };
+		66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWNavigationController.m; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -252,6 +270,7 @@
 		663D49E3221FCCE8006175D3 /* iOSTecGet */ = {
 			isa = PBXGroup;
 			children = (
+				66E072D6225D950800FA6A77 /* Base */,
 				6660A580225AF7DB0051F54E /* 加密解密 */,
 				660809632255E81F00DE3D74 /* 算法 */,
 				660809602255D6EF00DE3D74 /* iOSTecGetTest */,
@@ -266,6 +285,12 @@
 				663D49E5221FCCE8006175D3 /* AppDelegate.m */,
 				663D49E7221FCCE8006175D3 /* ViewController.h */,
 				663D49E8221FCCE8006175D3 /* ViewController.m */,
+				66E072D7225D9A2400FA6A77 /* ViewController1.h */,
+				66E072D8225D9A2400FA6A77 /* ViewController1.m */,
+				66E072DA225D9A3200FA6A77 /* ViewController2.h */,
+				66E072DB225D9A3200FA6A77 /* ViewController2.m */,
+				66E072DD225D9A4100FA6A77 /* ViewController3.h */,
+				66E072DE225D9A4100FA6A77 /* ViewController3.m */,
 				663D49EA221FCCE8006175D3 /* Main.storyboard */,
 				663D49ED221FCCF7006175D3 /* Assets.xcassets */,
 				663D49EF221FCCF7006175D3 /* LaunchScreen.storyboard */,
@@ -293,6 +318,8 @@
 				6660A58E225B365E0051F54E /* UIImage+SWImage.m */,
 				6660A593225B4AA00051F54E /* NSObject+Property.h */,
 				6660A594225B4AA00051F54E /* NSObject+Property.m */,
+				66E072E0225DC03C00FA6A77 /* UIView+Frame.h */,
+				66E072E1225DC03C00FA6A77 /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -378,6 +405,17 @@
 				6696F5C5222FA146003F043F /* index.html */,
 			);
 			path = WebFile;
+			sourceTree = "<group>";
+		};
+		66E072D6225D950800FA6A77 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				66E072E3225DDE8300FA6A77 /* LSWTabBarController.h */,
+				66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */,
+				66E072E6225DDF5400FA6A77 /* LSWNavigationController.h */,
+				66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		945EF95C2C3859385D18B244 /* Frameworks */ = {
@@ -623,9 +661,13 @@
 				663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */,
 				660CBE2B22290490001E7980 /* Person+SWPerson4.m in Sources */,
 				660CBE132228FFEF001E7980 /* Person+SWPerson1.m in Sources */,
+				66E072DC225D9A3200FA6A77 /* ViewController2.m in Sources */,
 				6660A583225AF9050051F54E /* SWEncryptAndDecryptViewController.m in Sources */,
+				66E072DF225D9A4100FA6A77 /* ViewController3.m in Sources */,
+				66E072E5225DDE8300FA6A77 /* LSWTabBarController.m in Sources */,
 				6660A589225B302C0051F54E /* SWAnimal.m in Sources */,
 				660CBE1922290015001E7980 /* Person+SWPerson3.m in Sources */,
+				66E072E2225DC03C00FA6A77 /* UIView+Frame.m in Sources */,
 				660CBE162229000A001E7980 /* Person+SWPerson2.m in Sources */,
 				660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */,
 				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
@@ -633,6 +675,7 @@
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
 				6660A5AA225C44E10051F54E /* Status.m in Sources */,
 				6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */,
+				66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
 				6660A5AB225C44E10051F54E /* SWUserModel.m in Sources */,
 				6660A5A9225C44E10051F54E /* SWMJViewController.m in Sources */,
@@ -651,6 +694,7 @@
 				663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */,
 				663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */,
 				6608096F2255E9B000DE3D74 /* SWAlgorithmViewController.mm in Sources */,
+				66E072E8225DDF5400FA6A77 /* LSWNavigationController.m in Sources */,
 				663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
