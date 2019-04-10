@@ -75,6 +75,7 @@
 		6696F5C6222FA146003F043F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
 		66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
 		66DC5B95223A090600C4697A /* SWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC5B94223A090600C4697A /* SWTimerViewController.m */; };
+		66E072D4225D7B1100FA6A77 /* SWKeywordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072D3225D7B1100FA6A77 /* SWKeywordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +158,8 @@
 		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 		66DC5B93223A090600C4697A /* SWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTimerViewController.h; sourceTree = "<group>"; };
 		66DC5B94223A090600C4697A /* SWTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTimerViewController.m; sourceTree = "<group>"; };
+		66E072D2225D7B1100FA6A77 /* SWKeywordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWKeywordViewController.h; sourceTree = "<group>"; };
+		66E072D3225D7B1100FA6A77 /* SWKeywordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWKeywordViewController.m; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -252,6 +255,7 @@
 		663D49E3221FCCE8006175D3 /* iOSTecGet */ = {
 			isa = PBXGroup;
 			children = (
+				66E072D1225D7AD600FA6A77 /* 关键字 */,
 				6660A580225AF7DB0051F54E /* 加密解密 */,
 				660809632255E81F00DE3D74 /* 算法 */,
 				660809602255D6EF00DE3D74 /* iOSTecGetTest */,
@@ -378,6 +382,15 @@
 				6696F5C5222FA146003F043F /* index.html */,
 			);
 			path = WebFile;
+			sourceTree = "<group>";
+		};
+		66E072D1225D7AD600FA6A77 /* 关键字 */ = {
+			isa = PBXGroup;
+			children = (
+				66E072D2225D7B1100FA6A77 /* SWKeywordViewController.h */,
+				66E072D3225D7B1100FA6A77 /* SWKeywordViewController.m */,
+			);
+			path = "关键字";
 			sourceTree = "<group>";
 		};
 		945EF95C2C3859385D18B244 /* Frameworks */ = {
@@ -624,6 +637,7 @@
 				660CBE2B22290490001E7980 /* Person+SWPerson4.m in Sources */,
 				660CBE132228FFEF001E7980 /* Person+SWPerson1.m in Sources */,
 				6660A583225AF9050051F54E /* SWEncryptAndDecryptViewController.m in Sources */,
+				66E072D4225D7B1100FA6A77 /* SWKeywordViewController.m in Sources */,
 				6660A589225B302C0051F54E /* SWAnimal.m in Sources */,
 				660CBE1922290015001E7980 /* Person+SWPerson3.m in Sources */,
 				660CBE162229000A001E7980 /* Person+SWPerson2.m in Sources */,

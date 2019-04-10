@@ -15,6 +15,7 @@
 #import "SWWebViewController.h"
 #import "SWEncryptAndDecryptViewController.h"
 #import "SWMJViewController.h"
+#import "SWKeywordViewController.h"
 
 #define APIURL  (getUrl())
 CG_INLINE NSString* getUrl(){
@@ -127,6 +128,9 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 5){
         
         cell.titleNameLb.text = @"加密学习";
+    }else if(indexPath.row == 6){
+        
+        cell.titleNameLb.text = @"关键字学习";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -175,6 +179,10 @@ static CGFloat kMagin = 10.f;
         
         SWEncryptAndDecryptViewController *encryptVc = [[SWEncryptAndDecryptViewController alloc]init];
         [self.navigationController pushViewController:encryptVc animated:YES];
+    }else if(indexPath.row == 6){ // 关键字学习
+        
+        SWKeywordViewController *keywordVc = [[SWKeywordViewController alloc]init];
+        [self.navigationController pushViewController:keywordVc animated:YES];
     }else{
         
        

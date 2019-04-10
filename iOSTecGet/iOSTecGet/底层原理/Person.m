@@ -8,7 +8,7 @@
 
 #import "Person.h"
 #import "SWFarmer.h"
-@interface Person (){
+@interface Person ()<NSCopying,NSMutableCopying>{
     
     NSString *_name;
     int _age;
@@ -97,5 +97,17 @@
 - (int)age{
     
     return _age;
+}
+
+- (id)copyWithZone:(NSZone *)zone{
+
+    Person *person = [[Person alloc]init];
+    return person;
+}
+
+- (id)mutableCopyWithZone:(NSZone *)zone{
+
+    Person *person = [[Person alloc]init];
+    return person;
 }
 @end
