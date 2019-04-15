@@ -15,23 +15,18 @@
 		6608093F2255D49A00DE3D74 /* Person+SWPerson3.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1822290015001E7980 /* Person+SWPerson3.m */; };
 		660809402255D49A00DE3D74 /* Person+SWPerson2.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE152229000A001E7980 /* Person+SWPerson2.m */; };
 		660809412255D49A00DE3D74 /* SWFarmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1E2229006C001E7980 /* SWFarmer.m */; };
-		660809422255D49A00DE3D74 /* SmallTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A03221FFFFD006175D3 /* SmallTipsViewController.m */; };
 		660809432255D49A00DE3D74 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE0B2228C868001E7980 /* TestViewController.m */; };
 		660809442255D49A00DE3D74 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A804332227919400925566 /* NSString+EOCMyAdditions.m */; };
 		660809452255D49A00DE3D74 /* SWTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC5B94223A090600C4697A /* SWTimerViewController.m */; };
 		660809462255D49A00DE3D74 /* SWTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0B22237E64006175D3 /* SWTimeViewController.m */; };
-		660809472255D49A00DE3D74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		660809482255D49A00DE3D74 /* SWCompileTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 66788F0322261CAA00747432 /* SWCompileTest.c */; };
 		660809492255D49A00DE3D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49F3221FCCF8006175D3 /* main.m */; };
 		6608094B2255D49A00DE3D74 /* SWTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1B2229003B001E7980 /* SWTeacher.m */; };
-		6608094C2255D49A00DE3D74 /* SWCollectionVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49FB221FDE89006175D3 /* SWCollectionVIewCell.m */; };
 		6608094D2255D49A00DE3D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		6608094E2255D49A00DE3D74 /* SWDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A122224DEF2006175D3 /* SWDealTool.m */; };
 		6608094F2255D49A00DE3D74 /* RichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A00221FE1F9006175D3 /* RichTextViewController.m */; };
 		660809502255D49A00DE3D74 /* NSString+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A072220008F006175D3 /* NSString+SWExtension.m */; };
-		660809522255D49A00DE3D74 /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */; };
 		660809542255D49A00DE3D74 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6696F5C5222FA146003F043F /* index.html */; };
-		660809562255D49A00DE3D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EF221FCCF7006175D3 /* LaunchScreen.storyboard */; };
 		660809572255D49A00DE3D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663D49ED221FCCF7006175D3 /* Assets.xcassets */; };
 		660809582255D49A00DE3D74 /* SWCollectionVIewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663D49FC221FDE89006175D3 /* SWCollectionVIewCell.xib */; };
 		660809592255D49A00DE3D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -52,12 +47,10 @@
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
 		663D49EE221FCCF7006175D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663D49ED221FCCF7006175D3 /* Assets.xcassets */; };
-		663D49F1221FCCF7006175D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EF221FCCF7006175D3 /* LaunchScreen.storyboard */; };
 		663D49F4221FCCF8006175D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49F3221FCCF8006175D3 /* main.m */; };
 		663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49FB221FDE89006175D3 /* SWCollectionVIewCell.m */; };
 		663D49FE221FDE89006175D3 /* SWCollectionVIewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663D49FC221FDE89006175D3 /* SWCollectionVIewCell.xib */; };
 		663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A00221FE1F9006175D3 /* RichTextViewController.m */; };
-		663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A03221FFFFD006175D3 /* SmallTipsViewController.m */; };
 		663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A072220008F006175D3 /* NSString+SWExtension.m */; };
 		663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0B22237E64006175D3 /* SWTimeViewController.m */; };
 		663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0F2224D99F006175D3 /* NullSafeViewController.m */; };
@@ -81,10 +74,15 @@
 		66E072E2225DC03C00FA6A77 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E1225DC03C00FA6A77 /* UIView+Frame.m */; };
 		66E072E5225DDE8300FA6A77 /* LSWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */; };
 		66E072E8225DDF5400FA6A77 /* LSWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */; };
+		66E072EB225ED6BE00FA6A77 /* LSWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072EA225ED6BE00FA6A77 /* LSWBaseModel.m */; };
+		66E072ED225F3CCA00FA6A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E072EC225F3CC900FA6A77 /* LaunchScreen.storyboard */; };
+		66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F322641BAA00FA6A77 /* SWCodeStandardsViewController.m */; };
+		66E072F722641BCF00FA6A77 /* SWCodeStandardsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F622641BCF00FA6A77 /* SWCodeStandardsModel.m */; };
+		66E072FA22641BDE00FA6A77 /* SWCodeStandardsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F922641BDE00FA6A77 /* SWCodeStandardsView.m */; };
+		C70963145B40DB02F9A096D0 /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		259101AE736BBAD91E393DDE /* Pods-iOSTecGet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.debug.xcconfig"; sourceTree = "<group>"; };
 		6608095E2255D49A00DE3D74 /* iOSTecGetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660809612255D6EF00DE3D74 /* iOSTecGetTestInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iOSTecGetTestInfo.plist; sourceTree = "<group>"; };
 		6608096A2255E8B600DE3D74 /* SWQuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWQuickSort.cpp; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		663D49E8221FCCE8006175D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		663D49EB221FCCE8006175D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663D49ED221FCCF7006175D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		663D49F0221FCCF7006175D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663D49F2221FCCF8006175D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663D49F3221FCCF8006175D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		663D49FA221FDE89006175D3 /* SWCollectionVIewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCollectionVIewCell.h; sourceTree = "<group>"; };
@@ -126,8 +123,6 @@
 		663D49FC221FDE89006175D3 /* SWCollectionVIewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWCollectionVIewCell.xib; sourceTree = "<group>"; };
 		663D49FF221FE1F9006175D3 /* RichTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextViewController.h; sourceTree = "<group>"; };
 		663D4A00221FE1F9006175D3 /* RichTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextViewController.m; sourceTree = "<group>"; };
-		663D4A02221FFFFD006175D3 /* SmallTipsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallTipsViewController.h; sourceTree = "<group>"; };
-		663D4A03221FFFFD006175D3 /* SmallTipsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallTipsViewController.m; sourceTree = "<group>"; };
 		663D4A062220008F006175D3 /* NSString+SWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SWExtension.h"; sourceTree = "<group>"; };
 		663D4A072220008F006175D3 /* NSString+SWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SWExtension.m"; sourceTree = "<group>"; };
 		663D4A0A22237E64006175D3 /* SWTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTimeViewController.h; sourceTree = "<group>"; };
@@ -175,8 +170,18 @@
 		66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTabBarController.m; sourceTree = "<group>"; };
 		66E072E6225DDF5400FA6A77 /* LSWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWNavigationController.h; sourceTree = "<group>"; };
 		66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWNavigationController.m; sourceTree = "<group>"; };
+		66E072E9225ED6BE00FA6A77 /* LSWBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWBaseModel.h; sourceTree = "<group>"; };
+		66E072EA225ED6BE00FA6A77 /* LSWBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWBaseModel.m; sourceTree = "<group>"; };
+		66E072EC225F3CC900FA6A77 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66E072F222641BAA00FA6A77 /* SWCodeStandardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCodeStandardsViewController.h; sourceTree = "<group>"; };
+		66E072F322641BAA00FA6A77 /* SWCodeStandardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCodeStandardsViewController.m; sourceTree = "<group>"; };
+		66E072F522641BCF00FA6A77 /* SWCodeStandardsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCodeStandardsModel.h; sourceTree = "<group>"; };
+		66E072F622641BCF00FA6A77 /* SWCodeStandardsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCodeStandardsModel.m; sourceTree = "<group>"; };
+		66E072F822641BDE00FA6A77 /* SWCodeStandardsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCodeStandardsView.h; sourceTree = "<group>"; };
+		66E072F922641BDE00FA6A77 /* SWCodeStandardsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCodeStandardsView.m; sourceTree = "<group>"; };
+		E09A0A574B6FF7C64D9A52C4 /* Pods-iOSTecGet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
+		FF7C0C759454F4A8D68275DF /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +189,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660809522255D49A00DE3D74 /* libPods-iOSTecGet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A6F75B3CB1B315AC0611DB1 /* libPods-iOSTecGet.a in Frameworks */,
+				C70963145B40DB02F9A096D0 /* libPods-iOSTecGet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +207,8 @@
 		28BBA203308B09D32C05D7F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				259101AE736BBAD91E393DDE /* Pods-iOSTecGet.debug.xcconfig */,
-				FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */,
+				E09A0A574B6FF7C64D9A52C4 /* Pods-iOSTecGet.debug.xcconfig */,
+				FF7C0C759454F4A8D68275DF /* Pods-iOSTecGet.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -213,7 +218,8 @@
 			children = (
 				660809612255D6EF00DE3D74 /* iOSTecGetTestInfo.plist */,
 			);
-			path = iOSTecGetTest;
+			name = iOSTecGetTest;
+			path = iOSTecGet/Main/iOSTecGetTest;
 			sourceTree = SOURCE_ROOT;
 		};
 		660809632255E81F00DE3D74 /* 算法 */ = {
@@ -270,39 +276,19 @@
 		663D49E3221FCCE8006175D3 /* iOSTecGet */ = {
 			isa = PBXGroup;
 			children = (
-				66E072D6225D950800FA6A77 /* Base */,
-				6660A580225AF7DB0051F54E /* 加密解密 */,
-				660809632255E81F00DE3D74 /* 算法 */,
-				660809602255D6EF00DE3D74 /* iOSTecGetTest */,
-				6696F5C0222F9F07003F043F /* WebFile */,
-				6696F5BD222F9B75003F043F /* Others */,
-				6696F5B8222F9B3C003F043F /* H5知识点 */,
-				660CBE102228FF85001E7980 /* load方法调用 */,
-				663D4A0D2224D972006175D3 /* 底层原理 */,
-				663D4A0922237745006175D3 /* 时间 */,
-				663D4A0522200057006175D3 /* Category */,
+				66E072FE2264224500FA6A77 /* Macros */,
+				66E072FC2264224500FA6A77 /* Main */,
+				66E072FD2264224500FA6A77 /* Manager */,
+				66E072FB2264224500FA6A77 /* NetWorks */,
+				66E072FF2264224500FA6A77 /* Utils */,
+				66E073002264224600FA6A77 /* Vendors */,
 				663D49E4221FCCE8006175D3 /* AppDelegate.h */,
 				663D49E5221FCCE8006175D3 /* AppDelegate.m */,
-				663D49E7221FCCE8006175D3 /* ViewController.h */,
-				663D49E8221FCCE8006175D3 /* ViewController.m */,
-				66E072D7225D9A2400FA6A77 /* ViewController1.h */,
-				66E072D8225D9A2400FA6A77 /* ViewController1.m */,
-				66E072DA225D9A3200FA6A77 /* ViewController2.h */,
-				66E072DB225D9A3200FA6A77 /* ViewController2.m */,
-				66E072DD225D9A4100FA6A77 /* ViewController3.h */,
-				66E072DE225D9A4100FA6A77 /* ViewController3.m */,
 				663D49EA221FCCE8006175D3 /* Main.storyboard */,
+				66E072EC225F3CC900FA6A77 /* LaunchScreen.storyboard */,
 				663D49ED221FCCF7006175D3 /* Assets.xcassets */,
-				663D49EF221FCCF7006175D3 /* LaunchScreen.storyboard */,
 				663D49F2221FCCF8006175D3 /* Info.plist */,
 				663D49F3221FCCF8006175D3 /* main.m */,
-				663D49FA221FDE89006175D3 /* SWCollectionVIewCell.h */,
-				663D49FB221FDE89006175D3 /* SWCollectionVIewCell.m */,
-				663D49FC221FDE89006175D3 /* SWCollectionVIewCell.xib */,
-				663D49FF221FE1F9006175D3 /* RichTextViewController.h */,
-				663D4A00221FE1F9006175D3 /* RichTextViewController.m */,
-				663D4A02221FFFFD006175D3 /* SmallTipsViewController.h */,
-				663D4A03221FFFFD006175D3 /* SmallTipsViewController.m */,
 			);
 			path = iOSTecGet;
 			sourceTree = "<group>";
@@ -410,12 +396,126 @@
 		66E072D6225D950800FA6A77 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				663D49FA221FDE89006175D3 /* SWCollectionVIewCell.h */,
+				663D49FB221FDE89006175D3 /* SWCollectionVIewCell.m */,
+				663D49FC221FDE89006175D3 /* SWCollectionVIewCell.xib */,
+				663D49E7221FCCE8006175D3 /* ViewController.h */,
+				663D49E8221FCCE8006175D3 /* ViewController.m */,
+				66E072D7225D9A2400FA6A77 /* ViewController1.h */,
+				66E072D8225D9A2400FA6A77 /* ViewController1.m */,
+				66E072DA225D9A3200FA6A77 /* ViewController2.h */,
+				66E072DB225D9A3200FA6A77 /* ViewController2.m */,
+				66E072DD225D9A4100FA6A77 /* ViewController3.h */,
+				66E072DE225D9A4100FA6A77 /* ViewController3.m */,
 				66E072E3225DDE8300FA6A77 /* LSWTabBarController.h */,
 				66E072E4225DDE8300FA6A77 /* LSWTabBarController.m */,
 				66E072E6225DDF5400FA6A77 /* LSWNavigationController.h */,
 				66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */,
+				66E072E9225ED6BE00FA6A77 /* LSWBaseModel.h */,
+				66E072EA225ED6BE00FA6A77 /* LSWBaseModel.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		66E072EE22641AFC00FA6A77 /* 代码规范 */ = {
+			isa = PBXGroup;
+			children = (
+				66E072F122641B1700FA6A77 /* Controller */,
+				66E072EF22641B1700FA6A77 /* Model */,
+				66E072F022641B1700FA6A77 /* View */,
+			);
+			path = "代码规范";
+			sourceTree = "<group>";
+		};
+		66E072EF22641B1700FA6A77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66E072F522641BCF00FA6A77 /* SWCodeStandardsModel.h */,
+				66E072F622641BCF00FA6A77 /* SWCodeStandardsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66E072F022641B1700FA6A77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66E072F822641BDE00FA6A77 /* SWCodeStandardsView.h */,
+				66E072F922641BDE00FA6A77 /* SWCodeStandardsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66E072F122641B1700FA6A77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66E072F222641BAA00FA6A77 /* SWCodeStandardsViewController.h */,
+				66E072F322641BAA00FA6A77 /* SWCodeStandardsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66E072FB2264224500FA6A77 /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		66E072FC2264224500FA6A77 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				66E072D6225D950800FA6A77 /* Base */,
+				66E07301226422C800FA6A77 /* 富文本 */,
+				66E072EE22641AFC00FA6A77 /* 代码规范 */,
+				6660A580225AF7DB0051F54E /* 加密解密 */,
+				660809632255E81F00DE3D74 /* 算法 */,
+				660809602255D6EF00DE3D74 /* iOSTecGetTest */,
+				6696F5B8222F9B3C003F043F /* H5知识点 */,
+				660CBE102228FF85001E7980 /* load方法调用 */,
+				663D4A0D2224D972006175D3 /* 底层原理 */,
+				663D4A0922237745006175D3 /* 时间 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		66E072FD2264224500FA6A77 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		66E072FE2264224500FA6A77 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		66E072FF2264224500FA6A77 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6696F5BD222F9B75003F043F /* Others */,
+				6696F5C0222F9F07003F043F /* WebFile */,
+				663D4A0522200057006175D3 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		66E073002264224600FA6A77 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		66E07301226422C800FA6A77 /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				663D49FF221FE1F9006175D3 /* RichTextViewController.h */,
+				663D4A00221FE1F9006175D3 /* RichTextViewController.m */,
+			);
+			path = "富文本";
 			sourceTree = "<group>";
 		};
 		945EF95C2C3859385D18B244 /* Frameworks */ = {
@@ -433,11 +533,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6608095B2255D49A00DE3D74 /* Build configuration list for PBXNativeTarget "iOSTecGetTest" */;
 			buildPhases = (
-				660809392255D49A00DE3D74 /* [CP] Check Pods Manifest.lock */,
 				6608093A2255D49A00DE3D74 /* Sources */,
 				660809512255D49A00DE3D74 /* Frameworks */,
 				660809532255D49A00DE3D74 /* Resources */,
-				6608095A2255D49A00DE3D74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -506,7 +604,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				660809542255D49A00DE3D74 /* index.html in Resources */,
-				660809562255D49A00DE3D74 /* LaunchScreen.storyboard in Resources */,
 				660809572255D49A00DE3D74 /* Assets.xcassets in Resources */,
 				660809582255D49A00DE3D74 /* SWCollectionVIewCell.xib in Resources */,
 				660809592255D49A00DE3D74 /* Main.storyboard in Resources */,
@@ -519,8 +616,8 @@
 			files = (
 				660809622255D6F000DE3D74 /* iOSTecGetTestInfo.plist in Resources */,
 				6696F5C6222FA146003F043F /* index.html in Resources */,
-				663D49F1221FCCF7006175D3 /* LaunchScreen.storyboard in Resources */,
 				663D49EE221FCCF7006175D3 /* Assets.xcassets in Resources */,
+				66E072ED225F3CCA00FA6A77 /* LaunchScreen.storyboard in Resources */,
 				663D49FE221FDE89006175D3 /* SWCollectionVIewCell.xib in Resources */,
 				663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */,
 			);
@@ -530,52 +627,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		5EBD50D7CB9036EA266FB340 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		660809392255D49A00DE3D74 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOSTecGet-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6608095A2255D49A00DE3D74 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -635,16 +686,13 @@
 				6608093F2255D49A00DE3D74 /* Person+SWPerson3.m in Sources */,
 				660809402255D49A00DE3D74 /* Person+SWPerson2.m in Sources */,
 				660809412255D49A00DE3D74 /* SWFarmer.m in Sources */,
-				660809422255D49A00DE3D74 /* SmallTipsViewController.m in Sources */,
 				660809432255D49A00DE3D74 /* TestViewController.m in Sources */,
 				660809442255D49A00DE3D74 /* NSString+EOCMyAdditions.m in Sources */,
 				660809452255D49A00DE3D74 /* SWTimerViewController.m in Sources */,
 				660809462255D49A00DE3D74 /* SWTimeViewController.m in Sources */,
-				660809472255D49A00DE3D74 /* ViewController.m in Sources */,
 				660809482255D49A00DE3D74 /* SWCompileTest.c in Sources */,
 				660809492255D49A00DE3D74 /* main.m in Sources */,
 				6608094B2255D49A00DE3D74 /* SWTeacher.m in Sources */,
-				6608094C2255D49A00DE3D74 /* SWCollectionVIewCell.m in Sources */,
 				6608094D2255D49A00DE3D74 /* AppDelegate.m in Sources */,
 				6608094E2255D49A00DE3D74 /* SWDealTool.m in Sources */,
 				6608094F2255D49A00DE3D74 /* RichTextViewController.m in Sources */,
@@ -670,11 +718,13 @@
 				66E072E2225DC03C00FA6A77 /* UIView+Frame.m in Sources */,
 				660CBE162229000A001E7980 /* Person+SWPerson2.m in Sources */,
 				660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */,
-				663D4A04221FFFFD006175D3 /* SmallTipsViewController.m in Sources */,
+				66E072EB225ED6BE00FA6A77 /* LSWBaseModel.m in Sources */,
 				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
 				6660A5AA225C44E10051F54E /* Status.m in Sources */,
+				66E072F722641BCF00FA6A77 /* SWCodeStandardsModel.m in Sources */,
 				6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */,
+				66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */,
 				66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
 				6660A5AB225C44E10051F54E /* SWUserModel.m in Sources */,
@@ -685,6 +735,7 @@
 				663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */,
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
 				66788F0422261CAA00747432 /* SWCompileTest.c in Sources */,
+				66E072FA22641BDE00FA6A77 /* SWCodeStandardsView.m in Sources */,
 				663D49F4221FCCF8006175D3 /* main.m in Sources */,
 				660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
@@ -710,20 +761,11 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		663D49EF221FCCF7006175D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				663D49F0221FCCF7006175D3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6608095C2255D49A00DE3D74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259101AE736BBAD91E393DDE /* Pods-iOSTecGet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -750,7 +792,6 @@
 		};
 		6608095D2255D49A00DE3D74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -889,14 +930,15 @@
 		};
 		663D49F8221FCCF8006175D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259101AE736BBAD91E393DDE /* Pods-iOSTecGet.debug.xcconfig */;
+			baseConfigurationReference = E09A0A574B6FF7C64D9A52C4 /* Pods-iOSTecGet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQV68UZ2XR;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -916,14 +958,15 @@
 		};
 		663D49F9221FCCF8006175D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4F4F7954058F490F35D4C3 /* Pods-iOSTecGet.release.xcconfig */;
+			baseConfigurationReference = FF7C0C759454F4A8D68275DF /* Pods-iOSTecGet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQV68UZ2XR;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
