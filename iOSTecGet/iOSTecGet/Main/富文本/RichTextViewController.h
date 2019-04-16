@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LSWBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RichTextViewController : UIViewController
+@interface RichTextViewController : LSWBaseViewController
+
 
 @end
 

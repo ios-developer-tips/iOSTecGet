@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LSWBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SWAlgorithmViewController : UIViewController
+@interface SWAlgorithmViewController : LSWBaseViewController
 
 @end
 

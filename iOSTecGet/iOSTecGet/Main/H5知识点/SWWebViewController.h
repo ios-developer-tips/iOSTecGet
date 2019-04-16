@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
+#import "LSWBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SWWebViewController : UIViewController
+@interface SWWebViewController : LSWBaseViewController
 
 @property (nonatomic, strong) WKWebView *webView;
 @end

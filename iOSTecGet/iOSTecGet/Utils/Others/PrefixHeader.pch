@@ -22,5 +22,6 @@
 #import <UIImageView+WebCache.h>
 #import <IQKeyboardManager.h>
 #import <Masonry.h>
+#import "UIButton+SWButton.h"
 #endif
 #endif /* PrefixHeader_pch */

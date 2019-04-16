@@ -43,6 +43,9 @@
 		660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1B2229003B001E7980 /* SWTeacher.m */; };
 		660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1E2229006C001E7980 /* SWFarmer.m */; };
 		660CBE2B22290490001E7980 /* Person+SWPerson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE2A22290490001E7980 /* Person+SWPerson4.m */; };
+		662D33842265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */; };
+		662D33872265A9E200F7C96D /* UIButton+SWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33862265A9E200F7C96D /* UIButton+SWButton.m */; };
+		662D33912265CA7700F7C96D /* SWARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33902265CA7700F7C96D /* SWARViewController.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -79,6 +82,9 @@
 		66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F322641BAA00FA6A77 /* SWCodeStandardsViewController.m */; };
 		66E072F722641BCF00FA6A77 /* SWCodeStandardsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F622641BCF00FA6A77 /* SWCodeStandardsModel.m */; };
 		66E072FA22641BDE00FA6A77 /* SWCodeStandardsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E072F922641BDE00FA6A77 /* SWCodeStandardsView.m */; };
+		66E0732D2264886A00FA6A77 /* SWResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0732B2264886A00FA6A77 /* SWResponseViewController.m */; };
+		66E07330226488B500FA6A77 /* SWResponseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0732F226488B500FA6A77 /* SWResponseView.m */; };
+		66E07333226565D600FA6A77 /* LSWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E07332226565D600FA6A77 /* LSWBaseViewController.m */; };
 		C70963145B40DB02F9A096D0 /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +115,12 @@
 		660CBE1E2229006C001E7980 /* SWFarmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWFarmer.m; sourceTree = "<group>"; };
 		660CBE2922290490001E7980 /* Person+SWPerson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+SWPerson4.h"; sourceTree = "<group>"; };
 		660CBE2A22290490001E7980 /* Person+SWPerson4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+SWPerson4.m"; sourceTree = "<group>"; };
+		662D33822265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SWBarButtonItem.h"; sourceTree = "<group>"; };
+		662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SWBarButtonItem.m"; sourceTree = "<group>"; };
+		662D33852265A9E200F7C96D /* UIButton+SWButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SWButton.h"; sourceTree = "<group>"; };
+		662D33862265A9E200F7C96D /* UIButton+SWButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SWButton.m"; sourceTree = "<group>"; };
+		662D338F2265CA7700F7C96D /* SWARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWARViewController.h; sourceTree = "<group>"; };
+		662D33902265CA7700F7C96D /* SWARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARViewController.m; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +191,12 @@
 		66E072F622641BCF00FA6A77 /* SWCodeStandardsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCodeStandardsModel.m; sourceTree = "<group>"; };
 		66E072F822641BDE00FA6A77 /* SWCodeStandardsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCodeStandardsView.h; sourceTree = "<group>"; };
 		66E072F922641BDE00FA6A77 /* SWCodeStandardsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCodeStandardsView.m; sourceTree = "<group>"; };
+		66E0732B2264886A00FA6A77 /* SWResponseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWResponseViewController.m; sourceTree = "<group>"; };
+		66E0732C2264886A00FA6A77 /* SWResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWResponseViewController.h; sourceTree = "<group>"; };
+		66E0732E226488B500FA6A77 /* SWResponseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWResponseView.h; sourceTree = "<group>"; };
+		66E0732F226488B500FA6A77 /* SWResponseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWResponseView.m; sourceTree = "<group>"; };
+		66E07331226565D600FA6A77 /* LSWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWBaseViewController.h; sourceTree = "<group>"; };
+		66E07332226565D600FA6A77 /* LSWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWBaseViewController.m; sourceTree = "<group>"; };
 		E09A0A574B6FF7C64D9A52C4 /* Pods-iOSTecGet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C0C759454F4A8D68275DF /* Pods-iOSTecGet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTecGet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTecGet/Pods-iOSTecGet.release.xcconfig"; sourceTree = "<group>"; };
@@ -254,6 +272,39 @@
 			path = "load方法调用";
 			sourceTree = "<group>";
 		};
+		662D338B2265CA5600F7C96D /* 新特性 */ = {
+			isa = PBXGroup;
+			children = (
+				662D338C2265CA5600F7C96D /* Controller */,
+				662D338D2265CA5600F7C96D /* Model */,
+				662D338E2265CA5600F7C96D /* View */,
+			);
+			path = "新特性";
+			sourceTree = "<group>";
+		};
+		662D338C2265CA5600F7C96D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				662D338F2265CA7700F7C96D /* SWARViewController.h */,
+				662D33902265CA7700F7C96D /* SWARViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		662D338D2265CA5600F7C96D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		662D338E2265CA5600F7C96D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		663D49D8221FCCE8006175D3 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +347,8 @@
 		663D4A0522200057006175D3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				662D33852265A9E200F7C96D /* UIButton+SWButton.h */,
+				662D33862265A9E200F7C96D /* UIButton+SWButton.m */,
 				663D4A062220008F006175D3 /* NSString+SWExtension.h */,
 				663D4A072220008F006175D3 /* NSString+SWExtension.m */,
 				66A804322227919400925566 /* NSString+EOCMyAdditions.h */,
@@ -306,6 +359,8 @@
 				6660A594225B4AA00051F54E /* NSObject+Property.m */,
 				66E072E0225DC03C00FA6A77 /* UIView+Frame.h */,
 				66E072E1225DC03C00FA6A77 /* UIView+Frame.m */,
+				662D33822265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.h */,
+				662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -324,6 +379,7 @@
 		663D4A0D2224D972006175D3 /* 底层原理 */ = {
 			isa = PBXGroup;
 			children = (
+				66E07324226487D400FA6A77 /* 响应链全家桶 */,
 				6660A59F225C44E10051F54E /* MJExtension全家桶 */,
 				663D4A0E2224D99F006175D3 /* NullSafeViewController.h */,
 				663D4A0F2224D99F006175D3 /* NullSafeViewController.m */,
@@ -413,6 +469,8 @@
 				66E072E7225DDF5400FA6A77 /* LSWNavigationController.m */,
 				66E072E9225ED6BE00FA6A77 /* LSWBaseModel.h */,
 				66E072EA225ED6BE00FA6A77 /* LSWBaseModel.m */,
+				66E07331226565D600FA6A77 /* LSWBaseViewController.h */,
+				66E07332226565D600FA6A77 /* LSWBaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -464,6 +522,7 @@
 		66E072FC2264224500FA6A77 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				662D338B2265CA5600F7C96D /* 新特性 */,
 				66E072D6225D950800FA6A77 /* Base */,
 				66E07301226422C800FA6A77 /* 富文本 */,
 				66E072EE22641AFC00FA6A77 /* 代码规范 */,
@@ -516,6 +575,41 @@
 				663D4A00221FE1F9006175D3 /* RichTextViewController.m */,
 			);
 			path = "富文本";
+			sourceTree = "<group>";
+		};
+		66E07324226487D400FA6A77 /* 响应链全家桶 */ = {
+			isa = PBXGroup;
+			children = (
+				66E0732A2264886A00FA6A77 /* Controller */,
+				66E073292264886A00FA6A77 /* Model */,
+				66E073282264886A00FA6A77 /* View */,
+			);
+			path = "响应链全家桶";
+			sourceTree = "<group>";
+		};
+		66E073282264886A00FA6A77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66E0732E226488B500FA6A77 /* SWResponseView.h */,
+				66E0732F226488B500FA6A77 /* SWResponseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66E073292264886A00FA6A77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66E0732A2264886A00FA6A77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66E0732C2264886A00FA6A77 /* SWResponseViewController.h */,
+				66E0732B2264886A00FA6A77 /* SWResponseViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		945EF95C2C3859385D18B244 /* Frameworks */ = {
@@ -705,6 +799,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6660A58C225B303B0051F54E /* SWDog.m in Sources */,
+				662D33842265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m in Sources */,
 				660CBE0F2228CE5E001E7980 /* Person.m in Sources */,
 				663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */,
 				660CBE2B22290490001E7980 /* Person+SWPerson4.m in Sources */,
@@ -727,6 +822,8 @@
 				66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */,
 				66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
+				66E0732D2264886A00FA6A77 /* SWResponseViewController.m in Sources */,
+				662D33872265A9E200F7C96D /* UIButton+SWButton.m in Sources */,
 				6660A5AB225C44E10051F54E /* SWUserModel.m in Sources */,
 				6660A5A9225C44E10051F54E /* SWMJViewController.m in Sources */,
 				660809762255FEFC00DE3D74 /* SWWebViewController.m in Sources */,
@@ -740,12 +837,15 @@
 				660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
 				663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */,
+				66E07330226488B500FA6A77 /* SWResponseView.m in Sources */,
 				6608096C2255E8B600DE3D74 /* SWQuickSort.cpp in Sources */,
+				662D33912265CA7700F7C96D /* SWARViewController.m in Sources */,
 				6660A5A8225C44E10051F54E /* NSObject+Model.m in Sources */,
 				663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */,
 				663D4A01221FE1F9006175D3 /* RichTextViewController.m in Sources */,
 				6608096F2255E9B000DE3D74 /* SWAlgorithmViewController.mm in Sources */,
 				66E072E8225DDF5400FA6A77 /* LSWNavigationController.m in Sources */,
+				66E07333226565D600FA6A77 /* LSWBaseViewController.m in Sources */,
 				663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LSWBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SWEncryptAndDecryptViewController : UIViewController
+@interface SWEncryptAndDecryptViewController : LSWBaseViewController
 
 @end
 

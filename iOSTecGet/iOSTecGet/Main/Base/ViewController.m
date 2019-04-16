@@ -15,6 +15,7 @@
 #import "SWWebViewController.h"
 #import "SWEncryptAndDecryptViewController.h"
 #import "SWMJViewController.h"
+#import "SWResponseViewController.h"
 
 #import "LSWBaseModel.h"
 #import "ViewController1.h"
@@ -108,39 +109,7 @@ static CGFloat kMagin = 10.f;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ViewController *vc = [[ViewController alloc]init];
-    ViewController1 *vc1 = [[ViewController1 alloc]init];
-    ViewController2 *vc2 = [[ViewController2 alloc]init];
-    ViewController3 *vc3 = [[ViewController3 alloc]init];
-    
-    NSArray *dataArr = @[@{
-                             @"viewController":vc,
-                             @"image":@"home",
-                             @"selectedImage":@"home-selected",
-                             @"titleName":@"首页"
-                             },@{
-                             @"viewController":vc1,
-                             @"image":@"yun-staging",
-                             @"selectedImage":@"yun-server-selected",
-                             @"titleName":@"云服务",
-                             },@{
-                             @"viewController":vc2,
-                             @"image":@"yun-staging",
-                             @"selectedImage":@"yun-staging-selected",
-                             @"titleName":@"云分期",
-                             },@{
-                             @"viewController":vc3,
-                             @"image":@"mine",
-                             @"selectedImage":@"mine-selected",
-                             @"titleName":@"我的",
-                             }];
-    
-//    NSMutableArray *modelArray = [LSWBaseModel mj_objectArrayWithKeyValuesArray:dataArr];
-    
-    
     [self setupItems];
-    
-//    AppDelegate *application = kAppDelegate;
     NSLog(@"------当前屏幕size%@",APIURL);
     
     double sum = getSum(M_PI,M_E);
@@ -155,44 +124,6 @@ static CGFloat kMagin = 10.f;
     icon.image = [UIImage imageNamed:@"logo-black"];
     self.navigationItem.titleView = icon;
 }
-
-//- (void)loadCollectionView{
-//
-//
-//}
-
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//
-//    ViewController *vc = [[ViewController alloc]init];
-//    ViewController1 *vc1 = [[ViewController1 alloc]init];
-//    ViewController2 *vc2 = [[ViewController2 alloc]init];
-//    ViewController3 *vc3 = [[ViewController3 alloc]init];
-//
-//    NSArray *dataArr = @[@{
-//                             @"viewController":@"vc",
-//                             @"image":@"home",
-//                             @"selectedImage":@"home-selected",
-//                             @"titleName":@"首页"
-//                             },@{
-//                             @"viewController":@"vc1",
-//                             @"image":@"yun-staging",
-//                             @"selectedImage":@"yun-server-selected",
-//                             @"titleName":@"云服务",
-//                             },@{
-//                             @"viewController":@"vc2",
-//                             @"image":@"yun-staging",
-//                             @"selectedImage":@"yun-staging-selected",
-//                             @"titleName":@"云分期",
-//                             },@{
-//                             @"viewController":@"vc3",
-//                             @"image":@"mine",
-//                             @"selectedImage":@"mine-selected",
-//                             @"titleName":@"我的",
-//                             }];
-//
-//        NSMutableArray *modelArray = [LSWBaseModel mj_objectArrayWithKeyValuesArray:dataArr];
-//
-//}
 
 #pragma mark -- UICollectionViewDelegate
 
@@ -228,6 +159,9 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 5){
         
         cell.titleNameLb.text = @"加密学习";
+    }else if(indexPath.row == 6){
+        
+        cell.titleNameLb.text = @"响应链";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -276,6 +210,10 @@ static CGFloat kMagin = 10.f;
         
         SWEncryptAndDecryptViewController *encryptVc = [[SWEncryptAndDecryptViewController alloc]init];
         [self.navigationController pushViewController:encryptVc animated:YES];
+    }else if(indexPath.row == 6){ // 响应链学习
+        
+        SWResponseViewController *responseVc = [[SWResponseViewController alloc]init];
+        [self.navigationController pushViewController:responseVc animated:YES];
     }else{
         
        

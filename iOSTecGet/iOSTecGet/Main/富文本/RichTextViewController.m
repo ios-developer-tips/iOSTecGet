@@ -28,6 +28,8 @@
     self.navigationItem.title = @"富文本测试";
     self.view.backgroundColor = [UIColor whiteColor];
     
+    [self setBackImage:[UIImage imageNamed:@"back"]];
+    
     UILabel *testLb = [[UILabel alloc]initWithFrame:CGRectMake(50, 100, 200, 20)];
     testLb.numberOfLines = 0;
 //    testLb.text = @"测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试";
