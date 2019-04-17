@@ -49,6 +49,7 @@
 		662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C12267186700F7C96D /* SWNetworkViewController.m */; };
 		662D33C5226718E500F7C96D /* SWARModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C4226718E500F7C96D /* SWARModel.m */; };
 		662D33C8226718F700F7C96D /* SWARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C7226718F700F7C96D /* SWARView.m */; };
+		662D33CC226720A400F7C96D /* SWKeywordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33CA226720A400F7C96D /* SWKeywordViewController.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -130,6 +131,8 @@
 		662D33C4226718E500F7C96D /* SWARModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARModel.m; sourceTree = "<group>"; };
 		662D33C6226718F700F7C96D /* SWARView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWARView.h; sourceTree = "<group>"; };
 		662D33C7226718F700F7C96D /* SWARView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARView.m; sourceTree = "<group>"; };
+		662D33CA226720A400F7C96D /* SWKeywordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWKeywordViewController.m; sourceTree = "<group>"; };
+		662D33CB226720A400F7C96D /* SWKeywordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWKeywordViewController.h; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -316,6 +319,15 @@
 				662D33C7226718F700F7C96D /* SWARView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		662D33C9226720A400F7C96D /* 关键字 */ = {
+			isa = PBXGroup;
+			children = (
+				662D33CA226720A400F7C96D /* SWKeywordViewController.m */,
+				662D33CB226720A400F7C96D /* SWKeywordViewController.h */,
+			);
+			path = "关键字";
 			sourceTree = "<group>";
 		};
 		663D49D8221FCCE8006175D3 = {
@@ -537,6 +549,7 @@
 		66E072FC2264224500FA6A77 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				662D33C9226720A400F7C96D /* 关键字 */,
 				662D338B2265CA5600F7C96D /* 新特性 */,
 				66E072D6225D950800FA6A77 /* Base */,
 				66E07301226422C800FA6A77 /* 富文本 */,
@@ -851,6 +864,7 @@
 				663D49E9221FCCE8006175D3 /* ViewController.m in Sources */,
 				66788F0422261CAA00747432 /* SWCompileTest.c in Sources */,
 				66E072FA22641BDE00FA6A77 /* SWCodeStandardsView.m in Sources */,
+				662D33CC226720A400F7C96D /* SWKeywordViewController.m in Sources */,
 				663D49F4221FCCF8006175D3 /* main.m in Sources */,
 				660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,

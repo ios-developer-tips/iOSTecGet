@@ -8,7 +8,7 @@
 
 #import "Person.h"
 #import "SWFarmer.h"
-@interface Person (){
+@interface Person ()<NSCopying>{
     
     NSString *_name;
     int _age;
@@ -97,5 +97,15 @@
 - (int)age{
     
     return _age;
+}
+
+- (id)copy{
+    
+    return self;
+}
+
+- (id)mutableCopy{
+    
+    return self;
 }
 @end
