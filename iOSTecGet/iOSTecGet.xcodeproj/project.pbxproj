@@ -47,6 +47,8 @@
 		662D33872265A9E200F7C96D /* UIButton+SWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33862265A9E200F7C96D /* UIButton+SWButton.m */; };
 		662D33912265CA7700F7C96D /* SWARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33902265CA7700F7C96D /* SWARViewController.m */; };
 		662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C12267186700F7C96D /* SWNetworkViewController.m */; };
+		662D33C5226718E500F7C96D /* SWARModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C4226718E500F7C96D /* SWARModel.m */; };
+		662D33C8226718F700F7C96D /* SWARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C7226718F700F7C96D /* SWARView.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -124,6 +126,10 @@
 		662D33902265CA7700F7C96D /* SWARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARViewController.m; sourceTree = "<group>"; };
 		662D33C02267186700F7C96D /* SWNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWNetworkViewController.h; sourceTree = "<group>"; };
 		662D33C12267186700F7C96D /* SWNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWNetworkViewController.m; sourceTree = "<group>"; };
+		662D33C3226718E500F7C96D /* SWARModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWARModel.h; sourceTree = "<group>"; };
+		662D33C4226718E500F7C96D /* SWARModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARModel.m; sourceTree = "<group>"; };
+		662D33C6226718F700F7C96D /* SWARView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWARView.h; sourceTree = "<group>"; };
+		662D33C7226718F700F7C96D /* SWARView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARView.m; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -297,6 +303,8 @@
 		662D338D2265CA5600F7C96D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				662D33C3226718E500F7C96D /* SWARModel.h */,
+				662D33C4226718E500F7C96D /* SWARModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +312,8 @@
 		662D338E2265CA5600F7C96D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				662D33C6226718F700F7C96D /* SWARView.h */,
+				662D33C7226718F700F7C96D /* SWARView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -812,10 +822,12 @@
 				66E072DC225D9A3200FA6A77 /* ViewController2.m in Sources */,
 				6660A583225AF9050051F54E /* SWEncryptAndDecryptViewController.m in Sources */,
 				66E072DF225D9A4100FA6A77 /* ViewController3.m in Sources */,
+				662D33C8226718F700F7C96D /* SWARView.m in Sources */,
 				66E072E5225DDE8300FA6A77 /* LSWTabBarController.m in Sources */,
 				6660A589225B302C0051F54E /* SWAnimal.m in Sources */,
 				660CBE1922290015001E7980 /* Person+SWPerson3.m in Sources */,
 				66E072E2225DC03C00FA6A77 /* UIView+Frame.m in Sources */,
+				662D33C5226718E500F7C96D /* SWARModel.m in Sources */,
 				660CBE162229000A001E7980 /* Person+SWPerson2.m in Sources */,
 				660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */,
 				66E072EB225ED6BE00FA6A77 /* LSWBaseModel.m in Sources */,
