@@ -46,6 +46,7 @@
 		662D33842265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */; };
 		662D33872265A9E200F7C96D /* UIButton+SWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33862265A9E200F7C96D /* UIButton+SWButton.m */; };
 		662D33912265CA7700F7C96D /* SWARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33902265CA7700F7C96D /* SWARViewController.m */; };
+		662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33C12267186700F7C96D /* SWNetworkViewController.m */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -121,6 +122,8 @@
 		662D33862265A9E200F7C96D /* UIButton+SWButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SWButton.m"; sourceTree = "<group>"; };
 		662D338F2265CA7700F7C96D /* SWARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWARViewController.h; sourceTree = "<group>"; };
 		662D33902265CA7700F7C96D /* SWARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWARViewController.m; sourceTree = "<group>"; };
+		662D33C02267186700F7C96D /* SWNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWNetworkViewController.h; sourceTree = "<group>"; };
+		662D33C12267186700F7C96D /* SWNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWNetworkViewController.m; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -515,6 +518,8 @@
 		66E072FB2264224500FA6A77 /* NetWorks */ = {
 			isa = PBXGroup;
 			children = (
+				662D33C02267186700F7C96D /* SWNetworkViewController.h */,
+				662D33C12267186700F7C96D /* SWNetworkViewController.m */,
 			);
 			path = NetWorks;
 			sourceTree = "<group>";
@@ -817,6 +822,7 @@
 				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
 				6660A5AA225C44E10051F54E /* Status.m in Sources */,
+				662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */,
 				66E072F722641BCF00FA6A77 /* SWCodeStandardsModel.m in Sources */,
 				6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */,
 				66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */,
