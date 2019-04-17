@@ -1,10 +1,26 @@
 {
   "images" : [
     {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "extent" : "full-screen",
+      "minimum-system-version" : "12.0",
+      "subtype" : "2688h",
+      "scale" : "3x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "extent" : "full-screen",
+      "minimum-system-version" : "12.0",
+      "subtype" : "1792h",
+      "scale" : "2x"
+    },
+    {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "2436h",
-      "filename" : "背景@2xiPhoneXPortraitiOS11_375x812pt@3x.png",
+      "filename" : "launchImageiPhoneXPortraitiOS11_375x812pt@3x.png",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -13,7 +29,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "背景@2xiPhonePortraitiOS89_414x736pt@3x.png",
+      "filename" : "launchImageiPhonePortraitiOS89_414x736pt@3x.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -22,7 +38,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "背景@2xiPhonePortraitiOS89_375x667pt@2x.png",
+      "filename" : "launchImageiPhonePortraitiOS89_375x667pt@2x.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -30,7 +46,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "背景@2xiPhonePortraitiOS789_320x480pt@2x.png",
+      "filename" : "launchImageiPhonePortraitiOS789_320x480pt@2x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -39,75 +55,30 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "背景@2xiPhonePortraitiOS789_320x568pt@2x.png",
+      "filename" : "launchImageiPhonePortraitiOS789_320x568pt@2x.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitiOS789_768x1024pt.png",
-      "extent" : "full-screen",
-      "minimum-system-version" : "7.0",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitiOS789_768x1024pt@2x.png",
-      "extent" : "full-screen",
-      "minimum-system-version" : "7.0",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "背景@2xiPhonePortraitiOS56_320x480pt.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "背景@2xiPhonePortraitiOS56_320x480pt@2x.png",
+      "filename" : "launchImageiPhonePortraitiOS56_320x480pt@2x.png",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "背景@2xiPhonePortraitiOS56_320x568pt@2x.png",
+      "filename" : "launchImageiPhonePortraitiOS56_320x568pt@2x.png",
       "extent" : "full-screen",
       "subtype" : "retina4",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitWOSBiOS56_768x1004pt.png",
-      "extent" : "to-status-bar",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitiOS56_768x1024pt.png",
-      "extent" : "full-screen",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitWOSBiOS56_768x1004pt@2x.png",
-      "extent" : "to-status-bar",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "背景@2xiPadPortraitiOS56_768x1024pt@2x.png",
-      "extent" : "full-screen",
       "scale" : "2x"
     }
   ],
