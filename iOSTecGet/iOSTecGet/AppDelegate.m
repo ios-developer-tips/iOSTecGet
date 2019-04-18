@@ -25,10 +25,9 @@ const NSString *versinName = @"测试版本";
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+ 
     NSLog(@"%@",versinName);
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
