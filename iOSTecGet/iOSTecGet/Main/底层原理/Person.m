@@ -9,7 +9,7 @@
 #import "Person.h"
 #import "SWFarmer.h"
 @interface Person ()<NSCopying,NSMutableCopying>{
-    
+
     NSString *_name;
     int _age;
 }
