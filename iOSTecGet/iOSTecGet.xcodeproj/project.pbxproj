@@ -358,13 +358,6 @@
 				66E072FB2264224500FA6A77 /* NetWorks */,
 				66E072FF2264224500FA6A77 /* Utils */,
 				66E073002264224600FA6A77 /* Vendors */,
-				663D49E4221FCCE8006175D3 /* AppDelegate.h */,
-				663D49E5221FCCE8006175D3 /* AppDelegate.m */,
-				663D49EA221FCCE8006175D3 /* Main.storyboard */,
-				66E072EC225F3CC900FA6A77 /* LaunchScreen.storyboard */,
-				663D49ED221FCCF7006175D3 /* Assets.xcassets */,
-				663D49F2221FCCF8006175D3 /* Info.plist */,
-				663D49F3221FCCF8006175D3 /* main.m */,
 			);
 			path = iOSTecGet;
 			sourceTree = "<group>";
@@ -460,6 +453,13 @@
 		6696F5BD222F9B75003F043F /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				663D49E4221FCCE8006175D3 /* AppDelegate.h */,
+				663D49E5221FCCE8006175D3 /* AppDelegate.m */,
+				663D49EA221FCCE8006175D3 /* Main.storyboard */,
+				66E072EC225F3CC900FA6A77 /* LaunchScreen.storyboard */,
+				663D49ED221FCCF7006175D3 /* Assets.xcassets */,
+				663D49F2221FCCF8006175D3 /* Info.plist */,
+				663D49F3221FCCF8006175D3 /* main.m */,
 				6696F5BC222F9B4A003F043F /* PrefixHeader.pch */,
 				6696F5C9222FA8C3003F043F /* SWAdapter.h */,
 			);
