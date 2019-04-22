@@ -10,6 +10,7 @@
 #import "SWResponseView.h"
 #import "SWOrangeView.h"
 #import "SWRedView.h"
+#import "SWGreenView.h"
 @interface SWResponseViewController ()
 
 @end
@@ -27,10 +28,16 @@
 //    responseView.backgroundColor = [UIColor orangeColor];
 //    [self.view addSubview:responseView];
     
+    // 绿色view
+    SWGreenView *greenVIew = [[SWGreenView alloc]init];
+    NSLog(@"%@-----%@",NSStringFromCGRect([UIScreen mainScreen].bounds),NSStringFromCGRect(self.view.frame));
+    greenVIew.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-200);
+    [self.view addSubview:greenVIew];
+    
     // 红色view
     SWRedView *redView = [[SWRedView alloc]init];
     redView.frame = CGRectMake(self.view.centerX-100, self.view.centerY-100, 200, 200);
-    [self.view addSubview:redView];
+    [greenVIew addSubview:redView];
     // 橙色view
     SWOrangeView *orangeView = [[SWOrangeView alloc]init];
     orangeView.frame = CGRectMake(100-50, 100-50, 100, 100);
@@ -60,4 +67,6 @@
 
     NSLog(@"%@------------touchesCancelled",NSStringFromClass([self class]));
 }
+
+
 @end

@@ -20,18 +20,18 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+    [super touchesBegan:touches withEvent:event];
     NSLog(@"%@------------touchesBegan",NSStringFromClass([self class]));
 }
 
 #pragma mark -- 处理触摸事件的两个方法
-- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event{
-    
-    return YES;
-}
-
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
-    
-    return self;
-}
+//- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event{
+//
+//    return YES;
+//}
+//
+//- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
+//
+//    return self;
+//}
 @end

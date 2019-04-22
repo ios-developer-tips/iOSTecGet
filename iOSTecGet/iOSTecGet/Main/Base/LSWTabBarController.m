@@ -13,6 +13,10 @@
 #import "ViewController2.h"
 #import "ViewController3.h"
 #import "LSWBaseModel.h"
+
+@implementation SWTabBarModel
+
+@end
 @interface LSWTabBarController ()
 
 @end
@@ -63,5 +67,16 @@
         // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
     LSWNavigationController *nav = [[LSWNavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
+}
+
+- (void)setBugeTabBar{
+    
+    
+}
+
+// 统一返回未经渲染的图片
+- (UIImage *)setDefalutImageWithImageName:(NSString *)imageName{
+    
+    return [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 @end

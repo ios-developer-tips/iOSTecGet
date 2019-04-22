@@ -7,6 +7,7 @@
 //
 
 #import "SWGreenView.h"
+#import "SWOrangeView.h"
 
 @implementation SWGreenView
 
@@ -26,7 +27,15 @@
 }
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
-    
-    return self;
+
+    SWOrangeView *orangeView = [[SWOrangeView alloc]init];
+    return orangeView;
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [super touchesBegan:touches withEvent:event];
+    NSLog(@"%@------------touchesBegan",NSStringFromClass([self class]));
 }
 @end

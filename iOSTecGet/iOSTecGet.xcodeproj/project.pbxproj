@@ -43,6 +43,7 @@
 		660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1B2229003B001E7980 /* SWTeacher.m */; };
 		660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE1E2229006C001E7980 /* SWFarmer.m */; };
 		660CBE2B22290490001E7980 /* Person+SWPerson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE2A22290490001E7980 /* Person+SWPerson4.m */; };
+		661FACA4226D937400B3D6C3 /* SWBulgeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 661FACA3226D937400B3D6C3 /* SWBulgeTabBar.m */; };
 		662D33842265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */; };
 		662D33872265A9E200F7C96D /* UIButton+SWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33862265A9E200F7C96D /* UIButton+SWButton.m */; };
 		662D33912265CA7700F7C96D /* SWARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33902265CA7700F7C96D /* SWARViewController.m */; };
@@ -123,6 +124,8 @@
 		660CBE1E2229006C001E7980 /* SWFarmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWFarmer.m; sourceTree = "<group>"; };
 		660CBE2922290490001E7980 /* Person+SWPerson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+SWPerson4.h"; sourceTree = "<group>"; };
 		660CBE2A22290490001E7980 /* Person+SWPerson4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+SWPerson4.m"; sourceTree = "<group>"; };
+		661FACA2226D937400B3D6C3 /* SWBulgeTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWBulgeTabBar.h; sourceTree = "<group>"; };
+		661FACA3226D937400B3D6C3 /* SWBulgeTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWBulgeTabBar.m; sourceTree = "<group>"; };
 		662D33822265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SWBarButtonItem.h"; sourceTree = "<group>"; };
 		662D33832265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SWBarButtonItem.m"; sourceTree = "<group>"; };
 		662D33852265A9E200F7C96D /* UIButton+SWButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SWButton.h"; sourceTree = "<group>"; };
@@ -508,6 +511,8 @@
 				66E072EA225ED6BE00FA6A77 /* LSWBaseModel.m */,
 				66E07331226565D600FA6A77 /* LSWBaseViewController.h */,
 				66E07332226565D600FA6A77 /* LSWBaseViewController.m */,
+				661FACA2226D937400B3D6C3 /* SWBulgeTabBar.h */,
+				661FACA3226D937400B3D6C3 /* SWBulgeTabBar.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -865,6 +870,7 @@
 				660CBE1F2229006C001E7980 /* SWFarmer.m in Sources */,
 				66E072EB225ED6BE00FA6A77 /* LSWBaseModel.m in Sources */,
 				660CBE0C2228C868001E7980 /* TestViewController.m in Sources */,
+				661FACA4226D937400B3D6C3 /* SWBulgeTabBar.m in Sources */,
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
 				6660A5AA225C44E10051F54E /* Status.m in Sources */,
 				662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */,
