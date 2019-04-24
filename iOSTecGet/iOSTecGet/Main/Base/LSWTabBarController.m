@@ -70,12 +70,12 @@
 }
 
 - (void)setBugeTabBar{
-    
+  
     
 }
 
 // 统一返回未经渲染的图片
-- (UIImage *)setDefalutImageWithImageName:(NSString *)imageName{
+- (UIImage *)setOriginalImageWithImageName:(NSString *)imageName{
     
     return [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }

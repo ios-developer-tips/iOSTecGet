@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 内部自定义tabBar所需要的属性
 @property (nonatomic,assign)SWTabBarType tabBarType;
-@property (nonatomic,strong)
 
 + (instancetype)initTabBarWithTabBarType:(SWTabBarType)tabBarType;
 @end

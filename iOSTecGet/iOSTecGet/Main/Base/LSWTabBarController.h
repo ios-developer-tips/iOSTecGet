@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef NS_ENUM(NSUInteger, JYTabBarType) {
+    JYTabBarTypeNormal,  // 正常的tabbar
+    JYTabBarTypeBulge, //  中间凸起的tabbar
+};
 
 NS_ASSUME_NONNULL_BEGIN
 @interface SWTabBarModel : NSObject
@@ -19,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface LSWTabBarController : UITabBarController
 
+@property (nonatomic, assign) JYTabBarType tabbarType;
 - (void)setBugeTabBar;
 @end
 
