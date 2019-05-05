@@ -13,6 +13,7 @@
 #import "ViewController2.h"
 #import "ViewController3.h"
 #import "LSWBaseModel.h"
+#import "SWBulgeTabBar.h"
 
 @implementation SWTabBarModel
 
@@ -71,6 +72,13 @@
 
 - (void)setBugeTabBar{
   
+    UIImage *img = [UIImage imageNamed:@"tabbar-bg"];
+    [[SWBulgeTabBar appearance] setShadowImage:[UIImage new]];
+    [[SWBulgeTabBar appearance] setBackgroundImage:[self imageWithColor:[UIColor clearColor]]];
+    
+    // kvo形式添加自定义tabBar
+    SWBulgeTabBar *tab = [SWBulgeTabBar initTabBarWithTabBarType:SWBulgeTabBarType];
+    
     
 }
 
@@ -78,5 +86,17 @@
 - (UIImage *)setOriginalImageWithImageName:(NSString *)imageName{
     
     return [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+}
+
+- (UIImage *)imageWithColor:(UIColor *)color{
+    
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 @end
