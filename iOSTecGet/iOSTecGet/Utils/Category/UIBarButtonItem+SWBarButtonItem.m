@@ -7,11 +7,13 @@
 //
 
 #import "UIBarButtonItem+SWBarButtonItem.h"
-
+//#import "SWAdapter.h"
+//#import "UIView+Frame.h"
 @implementation UIBarButtonItem (SWBarButtonItem)
 
 + (instancetype)itemWithImage:(NSString *)image highImage:(NSString *)highImage target:(id)target action:(SEL)action
 {
+
     // 将点击事件添加到UIView上面从而扩大点击范围
     UIGestureRecognizer *ges = [[UIGestureRecognizer alloc]initWithTarget:target action:action];
     UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 30*kRateRatioX, 30*kRateRatioY)];

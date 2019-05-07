@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A6F75B3CB1B315AC0611DB1 /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */; };
+		6604030822812692000A95AA /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604030722812692000A95AA /* libPods-iOSTecGet.a */; };
 		6608093B2255D49A00DE3D74 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE0E2228CE5E001E7980 /* Person.m */; };
 		6608093C2255D49A00DE3D74 /* NullSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0F2224D99F006175D3 /* NullSafeViewController.m */; };
 		6608093D2255D49A00DE3D74 /* Person+SWPerson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 660CBE2A22290490001E7980 /* Person+SWPerson4.m */; };
@@ -94,10 +94,11 @@
 		66E0732D2264886A00FA6A77 /* SWResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0732B2264886A00FA6A77 /* SWResponseViewController.m */; };
 		66E07330226488B500FA6A77 /* SWResponseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0732F226488B500FA6A77 /* SWResponseView.m */; };
 		66E07333226565D600FA6A77 /* LSWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E07332226565D600FA6A77 /* LSWBaseViewController.m */; };
-		C70963145B40DB02F9A096D0 /* libPods-iOSTecGet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6604030622812306000A95AA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6604030722812692000A95AA /* libPods-iOSTecGet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-iOSTecGet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6608095E2255D49A00DE3D74 /* iOSTecGetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660809612255D6EF00DE3D74 /* iOSTecGetTestInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iOSTecGetTestInfo.plist; sourceTree = "<group>"; };
 		6608096A2255E8B600DE3D74 /* SWQuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWQuickSort.cpp; sourceTree = "<group>"; };
@@ -172,6 +173,7 @@
 		663D4A0F2224D99F006175D3 /* NullSafeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NullSafeViewController.m; sourceTree = "<group>"; };
 		663D4A112224DEF2006175D3 /* SWDealTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDealTool.h; sourceTree = "<group>"; };
 		663D4A122224DEF2006175D3 /* SWDealTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDealTool.m; sourceTree = "<group>"; };
+		66404C5422812BCF000FAFA5 /* SWAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAdapter.h; sourceTree = "<group>"; };
 		6660A581225AF9050051F54E /* SWEncryptAndDecryptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWEncryptAndDecryptViewController.h; sourceTree = "<group>"; };
 		6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWEncryptAndDecryptViewController.m; sourceTree = "<group>"; };
 		6660A587225B302C0051F54E /* SWAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAnimal.h; sourceTree = "<group>"; };
@@ -192,9 +194,7 @@
 		6660A5A7225C44E10051F54E /* SWUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUserModel.m; sourceTree = "<group>"; };
 		66788F0222261CAA00747432 /* SWCompileTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCompileTest.h; sourceTree = "<group>"; };
 		66788F0322261CAA00747432 /* SWCompileTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SWCompileTest.c; sourceTree = "<group>"; };
-		6696F5BC222F9B4A003F043F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6696F5C5222FA146003F043F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		6696F5C9222FA8C3003F043F /* SWAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAdapter.h; sourceTree = "<group>"; };
 		66A804322227919400925566 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
 		66A804332227919400925566 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
 		66DC5B93223A090600C4697A /* SWTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTimerViewController.h; sourceTree = "<group>"; };
@@ -241,8 +241,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6F75B3CB1B315AC0611DB1 /* libPods-iOSTecGet.a in Frameworks */,
-				C70963145B40DB02F9A096D0 /* libPods-iOSTecGet.a in Frameworks */,
+				6604030822812692000A95AA /* libPods-iOSTecGet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,8 +474,8 @@
 		6696F5BD222F9B75003F043F /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				6696F5BC222F9B4A003F043F /* PrefixHeader.pch */,
-				6696F5C9222FA8C3003F043F /* SWAdapter.h */,
+				66404C5422812BCF000FAFA5 /* SWAdapter.h */,
+				6604030622812306000A95AA /* PrefixHeader.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -668,6 +667,7 @@
 		945EF95C2C3859385D18B244 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6604030722812692000A95AA /* libPods-iOSTecGet.a */,
 				F5B6D1DC9B80559A366368C7 /* libPods-iOSTecGet.a */,
 			);
 			name = Frameworks;
@@ -934,7 +934,7 @@
 				DEVELOPMENT_TEAM = YQV68UZ2XR;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -960,7 +960,7 @@
 				DEVELOPMENT_TEAM = YQV68UZ2XR;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Others/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -1019,6 +1019,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1076,6 +1077,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTecGet/Utils/Others/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1115,6 +1117,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.boccfc.-2------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -1143,6 +1146,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.boccfc.-2------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
