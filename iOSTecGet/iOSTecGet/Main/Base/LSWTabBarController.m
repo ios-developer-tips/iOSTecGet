@@ -13,7 +13,12 @@
 #import "ViewController2.h"
 #import "ViewController3.h"
 #import "LSWBaseModel.h"
-@interface LSWTabBarController ()
+#import "SWBulgeTabBar.h"
+
+@implementation SWTabBarModel
+
+@end
+@interface LSWTabBarController ()<SWBulgeTabBarDelegate>
 
 @end
 
@@ -27,11 +32,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self setBugeTabBar];
+    
     ViewController *vc = [[ViewController alloc]init];
     ViewController1 *vc1 = [[ViewController1 alloc]init];
     ViewController2 *vc2 = [[ViewController2 alloc]init];
     ViewController3 *vc3 = [[ViewController3 alloc]init];
-    
+
     [self setupChildVc:vc title:@"首页" image:@"home" selectedImage:@"home-selected"];
     [self setupChildVc:vc1 title:@"云金融" image:@"yun-server" selectedImage:@"yun-server-selected"];
     [self setupChildVc:vc2 title:@"云分期" image:@"yun-staging" selectedImage:@"yun-staging-selected"];
@@ -63,5 +70,39 @@
         // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
     LSWNavigationController *nav = [[LSWNavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
+}
+
+- (void)setBugeTabBar{
+  
+    UIImage *img = [UIImage imageNamed:@"tabbar_bg"];
+    [[SWBulgeTabBar appearance] setShadowImage:[UIImage new]];
+    [[SWBulgeTabBar appearance] setBackgroundImage:[self imageWithColor:[UIColor clearColor]]];
+    
+    // kvo形式添加自定义tabBar
+    SWBulgeTabBar *tab = [SWBulgeTabBar initTabBarWithTabBarType:SWBulgeTabBarType];
+    tab.centerBtnTitle = @"扫一扫";
+    tab.centerBtnIcon = @"tab_scan";
+    tab.tabDelegate = self;
+    tab.bgImgView.image = img;
+    [self setValue:tab forKey:@"tabBar"];
+    self.tabBar.translucent = NO;
+}
+
+// 统一返回未经渲染的图片
+- (UIImage *)setOriginalImageWithImageName:(NSString *)imageName{
+    
+    return [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+}
+
+- (UIImage *)imageWithColor:(UIColor *)color{
+    
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 @end

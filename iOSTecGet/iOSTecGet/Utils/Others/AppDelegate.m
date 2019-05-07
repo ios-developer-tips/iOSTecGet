@@ -25,11 +25,11 @@ const NSString *versinName = @"测试版本";
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+ 
     NSLog(@"%@",versinName);
+    [self setRootTabBarVc];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -38,6 +38,14 @@ const NSString *versinName = @"测试版本";
     
     self.window.rootViewController = tabBarVc;
     return YES;
+}
+
+- (void)setRootTabBarVc{
+    
+    // 自定义tabBar
+    LSWTabBarController *tabBarVc1 = [[LSWTabBarController alloc]init];
+    tabBarVc1.tabbarType = JYTabBarTypeBulge;
+    self.window.rootViewController = tabBarVc1;
 }
 
 

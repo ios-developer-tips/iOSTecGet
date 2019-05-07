@@ -46,7 +46,6 @@
     // 添加下划线
     [attrStr addAttribute:NSUnderlineStyleAttributeName value:[NSNumber numberWithInt:NSUnderlineStyleSingle] range:NSMakeRange(8, 7)];
     
-    
     // 段落样式
     NSMutableParagraphStyle *paragraph = [[NSMutableParagraphStyle alloc]init];
     // 行间距
@@ -67,8 +66,6 @@
     testLb.attributedText = attrStr;
     [testLb sizeToFit];
     // label添加链接
-    
-    
 }
 
 @end
