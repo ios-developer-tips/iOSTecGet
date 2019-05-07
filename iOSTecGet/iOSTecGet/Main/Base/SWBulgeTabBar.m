@@ -31,6 +31,14 @@
         UIButton *plusBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         self.centerButton = plusBtn;
         [plusBtn addTarget:self action:@selector(plusBtnDidClick) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:plusBtn];
+        
+        UILabel *scanLabel = [[UILabel alloc]init];
+        self.centerTitle = scanLabel;
+        scanLabel.font = [UIFont fontWithName:@".SFUIText-Medium" size:10];
+        scanLabel.textColor = [UIColor colorWithWhite:0.57 alpha:1.0];
+        scanLabel.textAlignment = NSTextAlignmentCenter;
+        [self addSubview:scanLabel];
     }
     return self;
 }
@@ -89,9 +97,16 @@
     }
 }
 
-- (void)setCenterButton:(UIButton *)centerButton{
+//- (void)setCenterButton:(UIButton *)centerButton{
+//
+//    _centerButton = centerButton;
+//    [_centerButton setBackgroundImage:[UIImage imageNamed:self.centerBtnIcon] forState:UIControlStateNormal];
+//    [_centerButton setBackgroundImage:[UIImage imageNamed:self.centerBtnIcon] forState:UIControlStateHighlighted];
+//}
+
+- (void)setCenterBtnIcon:(NSString *)centerBtnIcon{
     
-    _centerButton = centerButton;
+    _centerBtnIcon = centerBtnIcon;
     [self.centerButton setBackgroundImage:[UIImage imageNamed:self.centerBtnIcon] forState:UIControlStateNormal];
     [self.centerButton setBackgroundImage:[UIImage imageNamed:self.centerBtnIcon] forState:UIControlStateHighlighted];
 }
