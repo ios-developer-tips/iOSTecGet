@@ -17,6 +17,7 @@
 #import "SWMJViewController.h"
 #import "SWResponseViewController.h"
 #import "SWKeywordViewController.h"
+#import "SWWidgetViewController.h"
 
 #import "LSWBaseModel.h"
 #import "ViewController1.h"
@@ -166,6 +167,9 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 7){
         
         cell.titleNameLb.text = @"关键字学习";
+    }else if(indexPath.row == 8){
+        
+        cell.titleNameLb.text = @"基本控件学习";
     }else{
         
         cell.titleNameLb.text = @"待添加";
@@ -209,6 +213,7 @@ static CGFloat kMagin = 10.f;
     }else if(indexPath.row == 4){ // webView学习
         
         SWWebViewController *webViewVc = [[SWWebViewController alloc]init];
+//        webViewVc.view.backgroundColor = [UIColor colorWithRed:108.0/255 green:108.0/255 blue:108.0/255 alpha:1.0];
         [self.navigationController pushViewController:webViewVc animated:YES];
     }else if(indexPath.row == 5){ // 加密学习
         
@@ -222,6 +227,10 @@ static CGFloat kMagin = 10.f;
         
         SWKeywordViewController *keywordVc = [[SWKeywordViewController alloc]init];
         [self.navigationController pushViewController:keywordVc animated:YES];
+    }else if(indexPath.row == 8){ // 基本控件学习
+        
+        SWWidgetViewController *widgetVc = [[SWWidgetViewController alloc]init];
+        [self.navigationController pushViewController:widgetVc animated:YES];
     }else{
         
        

@@ -62,9 +62,11 @@
 //    button.backgroundColor = [UIColor orangeColor];
     [button setBackgroundImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
     button.size = button.currentBackgroundImage.size;
+    button.enabled = YES;
     [button addTarget:self action:@selector(backPage) forControlEvents:UIControlEventTouchUpInside];
     [backView addSubview:button];
     button.enlargeEnabled = YES;
+    
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:backView];
 }

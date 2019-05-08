@@ -68,6 +68,14 @@
 		663D4A0C22237E64006175D3 /* SWTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0B22237E64006175D3 /* SWTimeViewController.m */; };
 		663D4A102224D99F006175D3 /* NullSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A0F2224D99F006175D3 /* NullSafeViewController.m */; };
 		663D4A132224DEF2006175D3 /* SWDealTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D4A122224DEF2006175D3 /* SWDealTool.m */; };
+		66404C56228138FE000FAFA5 /* PDFTest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66404C55228138FD000FAFA5 /* PDFTest.pdf */; };
+		66404C5D2281835D000FAFA5 /* SWWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66404C5C2281835D000FAFA5 /* SWWidgetViewController.m */; };
+		66404C6522818412000FAFA5 /* home_ic_pick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C5F22818412000FAFA5 /* home_ic_pick@2x.png */; };
+		66404C6622818412000FAFA5 /* jkj_sort_ic_baby_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C6022818412000FAFA5 /* jkj_sort_ic_baby_s.png */; };
+		66404C6722818412000FAFA5 /* my_ic_coupon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C6122818412000FAFA5 /* my_ic_coupon@2x.png */; };
+		66404C6822818412000FAFA5 /* btn_voice_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C6222818412000FAFA5 /* btn_voice_play@2x.png */; };
+		66404C6922818412000FAFA5 /* my_ic_coupon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C6322818412000FAFA5 /* my_ic_coupon@3x.png */; };
+		66404C6A22818412000FAFA5 /* graphicreview_group_star_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66404C6422818412000FAFA5 /* graphicreview_group_star_red@2x.png */; };
 		6660A583225AF9050051F54E /* SWEncryptAndDecryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */; };
 		6660A589225B302C0051F54E /* SWAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A588225B302C0051F54E /* SWAnimal.m */; };
 		6660A58C225B303B0051F54E /* SWDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660A58B225B303B0051F54E /* SWDog.m */; };
@@ -174,6 +182,15 @@
 		663D4A112224DEF2006175D3 /* SWDealTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDealTool.h; sourceTree = "<group>"; };
 		663D4A122224DEF2006175D3 /* SWDealTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDealTool.m; sourceTree = "<group>"; };
 		66404C5422812BCF000FAFA5 /* SWAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAdapter.h; sourceTree = "<group>"; };
+		66404C55228138FD000FAFA5 /* PDFTest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDFTest.pdf; sourceTree = "<group>"; };
+		66404C5B2281835D000FAFA5 /* SWWidgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWWidgetViewController.h; sourceTree = "<group>"; };
+		66404C5C2281835D000FAFA5 /* SWWidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWWidgetViewController.m; sourceTree = "<group>"; };
+		66404C5F22818412000FAFA5 /* home_ic_pick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_ic_pick@2x.png"; sourceTree = "<group>"; };
+		66404C6022818412000FAFA5 /* jkj_sort_ic_baby_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jkj_sort_ic_baby_s.png; sourceTree = "<group>"; };
+		66404C6122818412000FAFA5 /* my_ic_coupon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_ic_coupon@2x.png"; sourceTree = "<group>"; };
+		66404C6222818412000FAFA5 /* btn_voice_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_voice_play@2x.png"; sourceTree = "<group>"; };
+		66404C6322818412000FAFA5 /* my_ic_coupon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_ic_coupon@3x.png"; sourceTree = "<group>"; };
+		66404C6422818412000FAFA5 /* graphicreview_group_star_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graphicreview_group_star_red@2x.png"; sourceTree = "<group>"; };
 		6660A581225AF9050051F54E /* SWEncryptAndDecryptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWEncryptAndDecryptViewController.h; sourceTree = "<group>"; };
 		6660A582225AF9050051F54E /* SWEncryptAndDecryptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWEncryptAndDecryptViewController.m; sourceTree = "<group>"; };
 		6660A587225B302C0051F54E /* SWAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAnimal.h; sourceTree = "<group>"; };
@@ -438,6 +455,53 @@
 			path = "底层原理";
 			sourceTree = "<group>";
 		};
+		66404C57228182EC000FAFA5 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				66404C5E22818408000FAFA5 /* sources */,
+				66404C58228182EC000FAFA5 /* controller */,
+				66404C59228182EC000FAFA5 /* model */,
+				66404C5A228182EC000FAFA5 /* view */,
+			);
+			path = "自定义控件";
+			sourceTree = "<group>";
+		};
+		66404C58228182EC000FAFA5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				66404C5B2281835D000FAFA5 /* SWWidgetViewController.h */,
+				66404C5C2281835D000FAFA5 /* SWWidgetViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		66404C59228182EC000FAFA5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66404C5A228182EC000FAFA5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		66404C5E22818408000FAFA5 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				66404C6222818412000FAFA5 /* btn_voice_play@2x.png */,
+				66404C6422818412000FAFA5 /* graphicreview_group_star_red@2x.png */,
+				66404C5F22818412000FAFA5 /* home_ic_pick@2x.png */,
+				66404C6022818412000FAFA5 /* jkj_sort_ic_baby_s.png */,
+				66404C6122818412000FAFA5 /* my_ic_coupon@2x.png */,
+				66404C6322818412000FAFA5 /* my_ic_coupon@3x.png */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
 		6660A580225AF7DB0051F54E /* 加密解密 */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +529,7 @@
 		6696F5B8222F9B3C003F043F /* H5知识点 */ = {
 			isa = PBXGroup;
 			children = (
+				66404C55228138FD000FAFA5 /* PDFTest.pdf */,
 				660809742255FEFC00DE3D74 /* SWWebViewController.h */,
 				660809752255FEFC00DE3D74 /* SWWebViewController.m */,
 			);
@@ -565,6 +630,7 @@
 		66E072FC2264224500FA6A77 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				66404C57228182EC000FAFA5 /* 自定义控件 */,
 				662D33C9226720A400F7C96D /* 关键字 */,
 				662D338B2265CA5600F7C96D /* 新特性 */,
 				66E072D6225D950800FA6A77 /* Base */,
@@ -763,7 +829,14 @@
 			files = (
 				660809622255D6F000DE3D74 /* iOSTecGetTestInfo.plist in Resources */,
 				6696F5C6222FA146003F043F /* index.html in Resources */,
+				66404C6822818412000FAFA5 /* btn_voice_play@2x.png in Resources */,
+				66404C6522818412000FAFA5 /* home_ic_pick@2x.png in Resources */,
+				66404C6622818412000FAFA5 /* jkj_sort_ic_baby_s.png in Resources */,
+				66404C6922818412000FAFA5 /* my_ic_coupon@3x.png in Resources */,
+				66404C6A22818412000FAFA5 /* graphicreview_group_star_red@2x.png in Resources */,
+				66404C6722818412000FAFA5 /* my_ic_coupon@2x.png in Resources */,
 				663D49EE221FCCF7006175D3 /* Assets.xcassets in Resources */,
+				66404C56228138FE000FAFA5 /* PDFTest.pdf in Resources */,
 				66E072ED225F3CCA00FA6A77 /* LaunchScreen.storyboard in Resources */,
 				663D49FE221FDE89006175D3 /* SWCollectionVIewCell.xib in Resources */,
 				663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */,
@@ -873,6 +946,7 @@
 				661FACA4226D937400B3D6C3 /* SWBulgeTabBar.m in Sources */,
 				660809732255F9D700DE3D74 /* SWSingleLinkList.cpp in Sources */,
 				6660A5AA225C44E10051F54E /* Status.m in Sources */,
+				66404C5D2281835D000FAFA5 /* SWWidgetViewController.m in Sources */,
 				662D33C22267186700F7C96D /* SWNetworkViewController.m in Sources */,
 				66E072F722641BCF00FA6A77 /* SWCodeStandardsModel.m in Sources */,
 				662D33E122686EA100F7C96D /* SWYelloView.m in Sources */,
