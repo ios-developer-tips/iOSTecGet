@@ -12,6 +12,57 @@
 #define MaxSize 50
 typedef int ElemType;
 // 静态分配
+typedef struct {
+    
+    ElemType data[MaxSize];
+    int length;
+}SqlList;
+
+#define initSize 100
+// 动态分配
+typedef struct {
+    
+    ElemType data;
+    int capacity;
+    int length;
+}SeqList;
+
+// 增
+/**
+ 在顺序表中插入数据
+
+ @param L 顺序表
+ @param i 插入位置
+ @param data 插入数据
+ @return 是否插入成功
+ */
+bool insert(SqlList &L,int i,ElemType e){
+    
+     // 异常判断
+    if (i<1 || i>L.length) {
+        return false;
+    }
+    
+    if (L.length > MaxSize) {
+        return false;
+    }
+    
+    for (int j=L.length; j>=i; j--) {
+        
+        L.data[j]=L.data[j-1];
+    }
+    // 这一句很关键，插入空余所缺的元素
+    L.data[i-1]=
+}
+// 删
+// 改
+// 查
+
+
+
+#define MaxSize 50
+typedef int ElemType;
+// 静态分配
 typedef struct{
     
     ElemType data[MaxSize];
@@ -56,7 +107,7 @@ bool ListInsert(SqList &L,int i,ElemType e){
     return true;
 }
 
-bool ListDelete(SqList &L,int i){
+bool ListDelete(SqList &L,int i, ElemType &e){
     
     if (i<1 || i>L.length) {
         return false;
@@ -90,11 +141,12 @@ void PrintList(SqList &L){
     }
     printf("\n");
 }
-void QuickSortData() {
+int main(int argc, const char * argv[]) {
     
     // 初始化测试数据
     SqList L;// 顺序表的名称
     bool ret;// 查看返回值
+    ElemType del;//要删除的元素
     // 首先手动在顺序表中赋值
     L.data[0]=1;
     L.data[1]=2;
@@ -106,10 +158,11 @@ void QuickSortData() {
         PrintList(L);
     }
     
-    ret = ListDelete(L, 2);
+    ret = ListDelete(L, 2, del);
     if (ret) {
         
         printf("删除元素成功\n");
+        printf("删除元素值为%d\n",del);
         PrintList(L);
     }else{
         printf("删除失败");
@@ -124,5 +177,5 @@ void QuickSortData() {
         
         printf("查找失败");
     }
+    return 0;
 }
-
