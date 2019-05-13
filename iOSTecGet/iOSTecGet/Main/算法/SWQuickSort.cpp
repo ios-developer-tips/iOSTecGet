@@ -10,172 +10,126 @@
 #include <stdlib.h>
 
 #define MaxSize 50
-typedef int ElemType;
-// 静态分配
+typedef  int ElemType;
 typedef struct {
     
     ElemType data[MaxSize];
     int length;
 }SqlList;
 
-#define initSize 100
-// 动态分配
-typedef struct {
+// 增/删/改/查
+bool ListInsert(SqlList &L,int i,ElemType data){
     
-    ElemType data;
-    int capacity;
-    int length;
-}SeqList;
-
-// 增
-/**
- 在顺序表中插入数据
-
- @param L 顺序表
- @param i 插入位置
- @param data 插入数据
- @return 是否插入成功
- */
-bool insert(SqlList &L,int i,ElemType e){
-    
-     // 异常判断
     if (i<1 || i>L.length) {
         return false;
     }
     
-    if (L.length > MaxSize) {
+    if (L.length >= MaxSize) {
         return false;
     }
     
-    for (int j=L.length; j>=i; j--) {
+    for (int j=L.length; j>i; j--) {
         
+        // 插入数据元素之后的数据一律后移
         L.data[j]=L.data[j-1];
     }
-    // 这一句很关键，插入空余所缺的元素
-    L.data[i-1]=
-}
-// 删
-// 改
-// 查
-
-
-
-#define MaxSize 50
-typedef int ElemType;
-// 静态分配
-typedef struct{
-    
-    ElemType data[MaxSize];
-    int length;
-}SqList;
-
-#define InitSize 100
-// 动态分配
-typedef struct {
-    
-    ElemType data;
-    int capacity;// 最大容量
-    int length;
-}SeqList;
-
-/**
- 插入顺序表方法,位置从1开始
- 
- @param L 被插入的顺序表
- @param i 插入的位置
- @param e 插入的元素
- @return 是否成功的返回值
- */
-bool ListInsert(SqList &L,int i,ElemType e){
-    
-    // 插入的位置不合适
-    if (i<1 || i>L.length+1) {
-        return false;
-    }
-    
-    // 表的长度大于最大长度
-    if (L.length>MaxSize) {
-        return false;
-    }
-    
-    for (int j=L.length; j>=i; j--) {
-        
-        L.data[j]=L.data[j-1];
-    }
-    L.data[i-1]=e;
+    L.data[i]=data;
     L.length++;
     return true;
 }
 
-bool ListDelete(SqList &L,int i, ElemType &e){
+// 删
+bool ListDelete(SqlList &L, int i, ElemType &data){
     
     if (i<1 || i>L.length) {
         return false;
     }
+    data = L.data[i-1];
     
     for (int j=i; j<L.length; j++) {
-        
         L.data[j-1]=L.data[j];
     }
     L.length--;
     return true;
 }
 
-// 查找成功，返回位置，位置从1开始
-int LocateElem(SqList L,ElemType e){
+// 改
+bool ListUpdate(SqlList &L, int i,ElemType data){
     
-    int i;
-    for(i=0;i<L.length;i++) {
-        
-        if (L.data[i]==e) {
-            
+    if (i<1 || i>L.length) {
+        return false;
+    }
+    L.data[i-1] = data;
+    return true;
+}
+
+// 查
+int LocateElem(SqlList &L,ElemType data){
+    
+    for (int i=0; i<L.length; i++) {
+        if (L.data[i] == data) {
             return i+1;
         }
     }
-    return 0;
+    return false;
 }
-void PrintList(SqList &L){
+
+
+
+
+void PrintList(SqlList &L){
     
     for (int i=0; i<L.length; i++) {
         printf("%4d",L.data[i]);
     }
     printf("\n");
 }
-int main(int argc, const char * argv[]) {
+
+void QuickSortData(){
     
-    // 初始化测试数据
-    SqList L;// 顺序表的名称
-    bool ret;// 查看返回值
-    ElemType del;//要删除的元素
-    // 首先手动在顺序表中赋值
+    // 初始化数据
+    SqlList L; // 顺序表的名称
+    bool ret; // 查看返回值
+    ElemType del ;// 要删除的元素
+    // 手动为顺序表赋值
     L.data[0]=1;
     L.data[1]=2;
-    L.data[2]=3;
-    L.length=3;//总计三个元素
-    ret = ListInsert(L, 2, 60);
+    L.data[2]=3;// 总计三个元素
+    L.length = 3;
+    ret = ListInsert(L, 2, 666);
+    ret = ListInsert(L, 2, 999);
     if (ret) {
-        printf("插入成功\n");
+        printf("插入元素成功\n");
         PrintList(L);
     }
     
-    ret = ListDelete(L, 2, del);
+    ret = ListDelete(L, 3, del);
     if (ret) {
-        
+
         printf("删除元素成功\n");
-        printf("删除元素值为%d\n",del);
+        printf("删除元素值为\n %d \n",del);
         PrintList(L);
     }else{
-        printf("删除失败");
+        printf("删除失败\n");
     }
-    
-    int result = LocateElem(L, 2);
-    if (result) {
-        
+
+    // 修改值
+    ret = ListUpdate(L, 1, 888);
+    if (ret) {
+
+        printf("修改成功\n");
+        PrintList(L);
+    }
+
+    // 查找值
+    int locate = LocateElem(L, 666);
+    if (locate) {
+
         printf("查找成功\n");
-        printf("元素位置为 %d\n",result);
+        printf("元素位置为 %d\n",locate);
     }else{
-        
-        printf("查找失败");
+
+        printf("查找失败\n");
     }
-    return 0;
 }
+
