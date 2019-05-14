@@ -8,6 +8,7 @@
 
 #import "SWAlgorithmViewController.h"
 #import "SWQuickSort.hpp"
+#import "SWSingleLinkList.hpp"
 //#import "SWQuickSort.cpp"
 @interface SWAlgorithmViewController ()
 
@@ -25,6 +26,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    QuickSortData();
+//    QuickSortData();
+    createSingleList();
 }
 @end

@@ -11,4 +11,5 @@
 
 #include <stdio.h>
 
+void createSingleList();
 #endif /* SWSingleLinkList_hpp */
