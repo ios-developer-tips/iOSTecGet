@@ -22,7 +22,7 @@ const NSString *versinName = @"测试版本";
 @interface AppDelegate ()
 
 @end
-
+//   在AppDelegate这个类中作了修改23423
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
