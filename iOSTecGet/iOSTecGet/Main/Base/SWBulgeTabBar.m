@@ -68,7 +68,14 @@
     self.centerTitle.center = CGPointMake(self.frame.size.width/2, CGRectGetMaxY(self.centerButton.frame)+10);
     
     CGFloat h = self.bgImgView.image.size.height;
-    self.bgImgView.frame = CGRectMake(0, -(h-self.frame.size.height), self.frame.size.width, self.frame.size.height + (h - self.frame.size.height));
+    self.bgImgView.layer.borderColor = [UIColor clearColor].CGColor;
+    if (isIphoneX) {
+        
+        self.bgImgView.frame = CGRectMake(0, -(h+34*kRateRatioX-self.frame.size.height), self.frame.size.width, self.frame.size.height + ( h - self.frame.size.height));
+    } else {
+        
+        self.bgImgView.frame = CGRectMake(0, -(h-self.frame.size.height), self.frame.size.width, self.frame.size.height + (h - self.frame.size.height));
+    }
     for (UIView *view in self.subviews) {
         
         if ([view isKindOfClass:class]) {

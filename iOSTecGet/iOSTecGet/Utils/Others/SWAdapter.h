@@ -73,5 +73,20 @@ Inline UIFont * BoldFont(CGFloat font){
     return [UIFont boldSystemFontOfSize:font*AdaptionWidth()];
 }
 
+// 判断是否是iPhoneX以上机型
+#define isIphoneX ({\
+int tmp = 0;\
+if (@available(iOS 11.0, *)) {\
+if ([UIApplication sharedApplication].delegate.window.safeAreaInsets.top > 20) {\
+tmp = 1;\
+}else{\
+tmp = 0;\
+}\
+}else{\
+tmp = 0;\
+}\
+tmp;\
+})
+
 #endif
 #endif /* SWAdapter_h */

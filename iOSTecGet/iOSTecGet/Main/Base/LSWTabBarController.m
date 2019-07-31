@@ -84,6 +84,7 @@
     tab.centerBtnIcon = @"tab_scan";
     tab.tabDelegate = self;
     tab.bgImgView.image = img;
+    
     [self setValue:tab forKey:@"tabBar"];
     self.tabBar.translucent = NO;
 }

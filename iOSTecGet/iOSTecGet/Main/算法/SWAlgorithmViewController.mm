@@ -9,6 +9,8 @@
 #import "SWAlgorithmViewController.h"
 #import "SWQuickSort.hpp"
 #import "SWSingleLinkList.hpp"
+#import "SWBubbleSort.hpp"
+#import "SWInsertSort.hpp"
 //#import "SWQuickSort.cpp"
 @interface SWAlgorithmViewController ()
 
@@ -27,6 +29,11 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
 //    QuickSortData();
-    createSingleList();
+//    createSingleList();
+//    bubbleSortData();
+//    optimizeBubbleSortData();
+    
+    insertSortData();
+    insertSortData1();
 }
 @end

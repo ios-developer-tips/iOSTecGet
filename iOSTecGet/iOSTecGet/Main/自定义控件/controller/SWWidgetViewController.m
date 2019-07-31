@@ -8,7 +8,8 @@
 
 #import "SWWidgetViewController.h"
 #import "UIButton+SWButton.h"
-
+#import "SWTableViewController.h"
+#import <MJRefresh.h>
 @interface SWWidgetViewController ()
 
 @end
@@ -28,6 +29,19 @@
     
     [testBtn setImagePosition:SWImagePositionTop spacing:5.0];
     [self.view addSubview:testBtn];
+    
+   // 跳转到UITableViewController界面
+    UIButton *jumpBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 400, 150, 50)];
+    jumpBtn.backgroundColor = [UIColor orangeColor];
+    [jumpBtn addTarget:self action:@selector(pushToNextVc) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:jumpBtn];
+}
+
+
+- (void)pushToNextVc{
+    
+    SWTableViewController *tableVc = [[SWTableViewController alloc]init];
+    [self.navigationController pushViewController:tableVc animated:YES];
 }
 
 /*

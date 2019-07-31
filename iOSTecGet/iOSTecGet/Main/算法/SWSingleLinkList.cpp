@@ -107,22 +107,28 @@ Status ListDelete(LinkList &L, int i, ElemType &e){
     return true;
 }
 
+void PrintList(LinkList L){
+    
+    L = L->next;
+    while (L!=NULL) {
+        printf("%3d",L->data);
+        L=L->next;
+    }
+    printf("\n");
+}
+
 void createSingleList(){
     
 //    LinkList list;
 //    CreateList(list, 5);
 //
-//    while (list->data) {
+//    while (list->da) {
 //        printf("-----");
 //        printf("%d",list->data);
 //        list = list->next;
 //    }
     
-    LinkList list;
-    LinkList L = CreateList(list);
-    while (L -> data) {
-        printf("-----");
-                printf("%d",L->data);
-                list = list->next;
-    }
+//    LinkList L;
+//    CreateList(L);
+//    PrintList(L);
 }

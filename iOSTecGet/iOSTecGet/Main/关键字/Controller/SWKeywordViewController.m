@@ -14,6 +14,7 @@
 @property (nonatomic, strong)NSString *strongStr;
 @property (nonatomic, copy)NSString *copiedStr;
 
+
 @end
 
 @implementation SWKeywordViewController
@@ -35,6 +36,12 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
+   
+}
+
+// 测试1
+- (void)test1{
+    
     NSLog(@"修改后的字段,strongStr:%@-------------copiedStr:%@",self.strongStr,self.copiedStr);
     NSLog(@"修改后的地址,strongStr:%p-------------copiedStr:%p",self.strongStr,self.copiedStr);
     
@@ -51,5 +58,11 @@
     // 非集合类对象
     Person *person = [[Person alloc]init];
     NSLog(@"person:%p------------copy1:%p-------------mutalbeCopy1:%p",person,[person copy],[person mutableCopy]);
+}
+
+// 测试2
+- (void)test2{
+    
+    
 }
 @end
