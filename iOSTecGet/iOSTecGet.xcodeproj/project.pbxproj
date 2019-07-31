@@ -56,6 +56,8 @@
 		662D33DB22686E8800F7C96D /* SWOrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33DA22686E8800F7C96D /* SWOrangeView.m */; };
 		662D33DE22686E9400F7C96D /* SWGreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33DD22686E9400F7C96D /* SWGreenView.m */; };
 		662D33E122686EA100F7C96D /* SWYelloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33E022686EA100F7C96D /* SWYelloView.m */; };
+		662E889A22F1672200ABA9B0 /* SWShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E889822F1672200ABA9B0 /* SWShellSort.cpp */; };
+		662E889D22F1749E00ABA9B0 /* SWChooseSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -162,6 +164,10 @@
 		662D33DD22686E9400F7C96D /* SWGreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWGreenView.m; sourceTree = "<group>"; };
 		662D33DF22686EA100F7C96D /* SWYelloView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWYelloView.h; sourceTree = "<group>"; };
 		662D33E022686EA100F7C96D /* SWYelloView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWYelloView.m; sourceTree = "<group>"; };
+		662E889822F1672200ABA9B0 /* SWShellSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWShellSort.cpp; sourceTree = "<group>"; };
+		662E889922F1672200ABA9B0 /* SWShellSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWShellSort.hpp; sourceTree = "<group>"; };
+		662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWChooseSort.cpp; sourceTree = "<group>"; };
+		662E889C22F1749E00ABA9B0 /* SWChooseSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWChooseSort.hpp; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -305,6 +311,10 @@
 				6608096E2255E9B000DE3D74 /* SWAlgorithmViewController.mm */,
 				660809722255F9D700DE3D74 /* SWSingleLinkList.hpp */,
 				660809712255F9D700DE3D74 /* SWSingleLinkList.cpp */,
+				662E889922F1672200ABA9B0 /* SWShellSort.hpp */,
+				662E889822F1672200ABA9B0 /* SWShellSort.cpp */,
+				662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */,
+				662E889C22F1749E00ABA9B0 /* SWChooseSort.hpp */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -996,6 +1006,7 @@
 				66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */,
 				667BDCB522F0293E004CDBF8 /* SWBubbleSort.cpp in Sources */,
 				66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */,
+				662E889A22F1672200ABA9B0 /* SWShellSort.cpp in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
 				66E0732D2264886A00FA6A77 /* SWResponseViewController.m in Sources */,
 				662D33D52268591600F7C96D /* UIView+Frame.m in Sources */,
@@ -1014,6 +1025,7 @@
 				660CBE1C2229003B001E7980 /* SWTeacher.m in Sources */,
 				663D49FD221FDE89006175D3 /* SWCollectionVIewCell.m in Sources */,
 				663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */,
+				662E889D22F1749E00ABA9B0 /* SWChooseSort.cpp in Sources */,
 				66E07330226488B500FA6A77 /* SWResponseView.m in Sources */,
 				6608096C2255E8B600DE3D74 /* SWQuickSort.cpp in Sources */,
 				662D33912265CA7700F7C96D /* SWARViewController.m in Sources */,

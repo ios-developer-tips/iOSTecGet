@@ -11,6 +11,7 @@
 #import "SWSingleLinkList.hpp"
 #import "SWBubbleSort.hpp"
 #import "SWInsertSort.hpp"
+#import "SWShellSort.hpp"
 //#import "SWQuickSort.cpp"
 @interface SWAlgorithmViewController ()
 
@@ -33,7 +34,9 @@
 //    bubbleSortData();
 //    optimizeBubbleSortData();
     
-    insertSortData();
-    insertSortData1();
+//    insertSortData();
+//    insertSortData1();
+    
+    shellSort();
 }
 @end
