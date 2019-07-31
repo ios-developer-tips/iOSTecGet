@@ -13,7 +13,7 @@
 #import "ViewController3.h"
 #import "LSWTabBarController.h"
 #if APPTYPE == 0
-
+// 在AppDelegate这个类中作了修改1
 const NSString *versinName = @"正式版本";
 #elif APPTYPE == 1
 const NSString *versinName = @"测试版本";
@@ -22,7 +22,7 @@ const NSString *versinName = @"测试版本";
 @interface AppDelegate ()
 
 @end
-
+//   在AppDelegate这个类中作了修改23423
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
