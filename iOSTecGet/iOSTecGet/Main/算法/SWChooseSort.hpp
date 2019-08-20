@@ -11,4 +11,5 @@
 
 #include <stdio.h>
 
+void chooseSortData();
 #endif /* SWChooseSort_hpp */

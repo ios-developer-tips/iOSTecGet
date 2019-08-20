@@ -12,6 +12,9 @@
 #import "SWBubbleSort.hpp"
 #import "SWInsertSort.hpp"
 #import "SWShellSort.hpp"
+#import "SWChooseSort.hpp"
+#import "SWMergeSort.hpp"
+#import "SWCountingSort.hpp"
 //#import "SWQuickSort.cpp"
 @interface SWAlgorithmViewController ()
 
@@ -37,6 +40,13 @@
 //    insertSortData();
 //    insertSortData1();
     
-    shellSort();
+//    shellSort();
+    
+//    chooseSortData();
+    
+    
+//    testMerge_sortData();
+    
+    testCountingSort();
 }
 @end

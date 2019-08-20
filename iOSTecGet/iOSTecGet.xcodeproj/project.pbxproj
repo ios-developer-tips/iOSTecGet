@@ -58,6 +58,9 @@
 		662D33E122686EA100F7C96D /* SWYelloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D33E022686EA100F7C96D /* SWYelloView.m */; };
 		662E889A22F1672200ABA9B0 /* SWShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E889822F1672200ABA9B0 /* SWShellSort.cpp */; };
 		662E889D22F1749E00ABA9B0 /* SWChooseSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */; };
+		662E88A022F2DB6100ABA9B0 /* SWMergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E889E22F2DB6100ABA9B0 /* SWMergeSort.cpp */; };
+		662E88A3230B9C2A00ABA9B0 /* SWHeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E88A1230B9C2A00ABA9B0 /* SWHeapSort.cpp */; };
+		662E88A6230BCE4A00ABA9B0 /* SWCountingSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662E88A4230BCE4A00ABA9B0 /* SWCountingSort.cpp */; };
 		663D49E6221FCCE8006175D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E5221FCCE8006175D3 /* AppDelegate.m */; };
 		663D49E9221FCCE8006175D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D49E8221FCCE8006175D3 /* ViewController.m */; };
 		663D49EC221FCCE8006175D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D49EA221FCCE8006175D3 /* Main.storyboard */; };
@@ -168,6 +171,12 @@
 		662E889922F1672200ABA9B0 /* SWShellSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWShellSort.hpp; sourceTree = "<group>"; };
 		662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWChooseSort.cpp; sourceTree = "<group>"; };
 		662E889C22F1749E00ABA9B0 /* SWChooseSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWChooseSort.hpp; sourceTree = "<group>"; };
+		662E889E22F2DB6100ABA9B0 /* SWMergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWMergeSort.cpp; sourceTree = "<group>"; };
+		662E889F22F2DB6100ABA9B0 /* SWMergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWMergeSort.hpp; sourceTree = "<group>"; };
+		662E88A1230B9C2A00ABA9B0 /* SWHeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWHeapSort.cpp; sourceTree = "<group>"; };
+		662E88A2230B9C2A00ABA9B0 /* SWHeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWHeapSort.hpp; sourceTree = "<group>"; };
+		662E88A4230BCE4A00ABA9B0 /* SWCountingSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SWCountingSort.cpp; sourceTree = "<group>"; };
+		662E88A5230BCE4A00ABA9B0 /* SWCountingSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SWCountingSort.hpp; sourceTree = "<group>"; };
 		663D49E1221FCCE8006175D3 /* iOSTecGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTecGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D49E4221FCCE8006175D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663D49E5221FCCE8006175D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -313,8 +322,14 @@
 				660809712255F9D700DE3D74 /* SWSingleLinkList.cpp */,
 				662E889922F1672200ABA9B0 /* SWShellSort.hpp */,
 				662E889822F1672200ABA9B0 /* SWShellSort.cpp */,
-				662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */,
 				662E889C22F1749E00ABA9B0 /* SWChooseSort.hpp */,
+				662E889B22F1749E00ABA9B0 /* SWChooseSort.cpp */,
+				662E889F22F2DB6100ABA9B0 /* SWMergeSort.hpp */,
+				662E889E22F2DB6100ABA9B0 /* SWMergeSort.cpp */,
+				662E88A2230B9C2A00ABA9B0 /* SWHeapSort.hpp */,
+				662E88A1230B9C2A00ABA9B0 /* SWHeapSort.cpp */,
+				662E88A5230BCE4A00ABA9B0 /* SWCountingSort.hpp */,
+				662E88A4230BCE4A00ABA9B0 /* SWCountingSort.cpp */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -973,6 +988,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662E88A022F2DB6100ABA9B0 /* SWMergeSort.cpp in Sources */,
 				6660A58C225B303B0051F54E /* SWDog.m in Sources */,
 				662D33842265842600F7C96D /* UIBarButtonItem+SWBarButtonItem.m in Sources */,
 				660CBE0F2228CE5E001E7980 /* Person.m in Sources */,
@@ -1005,6 +1021,7 @@
 				6660A58F225B365E0051F54E /* UIImage+SWImage.m in Sources */,
 				66E072F422641BAB00FA6A77 /* SWCodeStandardsViewController.m in Sources */,
 				667BDCB522F0293E004CDBF8 /* SWBubbleSort.cpp in Sources */,
+				662E88A6230BCE4A00ABA9B0 /* SWCountingSort.cpp in Sources */,
 				66E072D9225D9A2400FA6A77 /* ViewController1.m in Sources */,
 				662E889A22F1672200ABA9B0 /* SWShellSort.cpp in Sources */,
 				66A804342227919400925566 /* NSString+EOCMyAdditions.m in Sources */,
@@ -1037,6 +1054,7 @@
 				66E072E8225DDF5400FA6A77 /* LSWNavigationController.m in Sources */,
 				66E07333226565D600FA6A77 /* LSWBaseViewController.m in Sources */,
 				663D4A082220008F006175D3 /* NSString+SWExtension.m in Sources */,
+				662E88A3230B9C2A00ABA9B0 /* SWHeapSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

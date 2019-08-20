@@ -43,18 +43,18 @@ void shellSort(){
     L.data[2]=5;// 总计三个元素
     L.data[3]=4;
     L.data[4]=1;
-    L.length = 5;
-    int gap = L.length;
-    while (gap>1) {
-        gap = gap/3 + 1;
-        for (int i=gap; i<gap; i+=gap) {
-            int current = L.data[i];
-            int preIndex = i-gap;
-            while (preIndex >=0 && L.data[preIndex]>current) {
-                L.data[i] = L.data[preIndex];
-                preIndex -= gap;
+    L.data[5]=7;
+    L.data[6]=6;
+    L.length = 7;
+    int i, j, gap;
+    int temp;
+    for (gap = L.length >> 1; gap>0; gap >>= 1) {
+        for (i = gap; i < L.length; i++) {
+            temp = L.data[i];
+            for (j = i - gap; j >= 0 && L.data[j] > temp; j -= gap) {
+                L.data[j + gap] = L.data[j];
             }
-            L.data[preIndex+gap] = current;
+            L.data[j + gap] = temp;
         }
     }
     
