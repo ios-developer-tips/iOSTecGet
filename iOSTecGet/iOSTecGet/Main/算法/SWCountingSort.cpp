@@ -19,7 +19,6 @@ void print_arr(int *arr, int n){
         printf("%d",arr[i]);
         printf("\n");
     }
-    
 }
 
 void counting_sort(int *ini_arr, int *sorted_arr, int n){
